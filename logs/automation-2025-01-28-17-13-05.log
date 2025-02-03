@@ -1,0 +1,5 @@
+17:15:56.781 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:15:57.403 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:15:57.531 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+17:15:59.203 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+17:16:01.894 [main] INFO  utilities.Listeners - Execution completed

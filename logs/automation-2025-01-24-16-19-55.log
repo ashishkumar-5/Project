@@ -1,0 +1,10 @@
+16:19:55.536 [main] INFO  utilities.Listeners - Execution started
+16:19:59.958 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:19:59.965 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:20:01.717 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+16:20:01.724 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+16:20:03.385 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+16:20:03.834 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+16:20:03.894 [main] INFO  testCases.ExistEmployeeDetailsTest - Searched Employee entry is found in the table
+16:20:04.288 [main] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+16:20:05.590 [main] INFO  utilities.Listeners - Execution completed

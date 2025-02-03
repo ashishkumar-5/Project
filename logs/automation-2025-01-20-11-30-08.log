@@ -1,0 +1,20 @@
+11:30:08.785 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+11:30:13.486 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+11:30:13.490 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:30:15.255 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:30:15.261 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - page title is matched
+11:30:19.662 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+11:30:19.681 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:30:19.732 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:30:20.918 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:30:24.492 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - New Employee added Successfully
+11:30:25.774 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:30:25.774 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:30:37.581 [TestNG-tests-1] ERROR testCases.LoginandLogoutTest - Test Failed
+11:30:37.583 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:30:37.583 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:30:37.587 [TestNG-tests-1] ERROR testCases.LoginandLogoutTest - Test Failed
+11:30:37.588 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:30:37.589 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:30:37.591 [TestNG-tests-1] ERROR testCases.LoginandLogoutTest - Test Failed
+11:30:38.460 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

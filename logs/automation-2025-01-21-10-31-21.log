@@ -1,0 +1,27 @@
+10:31:22.236 [main] INFO  utilities.Listeners - Execution started
+10:31:32.881 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+10:31:32.890 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+10:31:35.880 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+10:31:35.908 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+10:31:39.274 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+10:31:48.958 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:31:48.998 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:31:51.683 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+10:31:55.650 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+10:31:57.022 [main] INFO  testCases.AddEmployeeTest - textToBePresentInElementLocatedis not found
+10:31:57.022 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+10:31:57.668 [main] INFO  testCases.AddEmployeeTest - elementToBeClickableis not found
+10:31:57.668 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+10:31:58.318 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+10:31:58.423 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+10:31:59.057 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:31:59.062 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:31:59.063 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:32:09.094 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:32:09.097 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:32:09.098 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:32:18.125 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:32:18.127 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:32:18.128 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:32:18.133 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:32:19.657 [main] INFO  utilities.Listeners - Execution completed

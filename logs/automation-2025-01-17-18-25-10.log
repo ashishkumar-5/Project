@@ -1,0 +1,25 @@
+18:25:11.295 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+18:25:14.424 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+18:25:14.433 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+18:25:21.202 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+18:25:21.217 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - page title is matched
+18:25:25.878 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+18:25:33.492 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:25:33.518 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:25:36.377 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:25:40.349 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:25:41.644 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+18:25:42.349 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+18:25:42.890 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+18:25:42.990 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+18:25:43.653 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+18:25:43.656 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:25:43.657 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:25:53.694 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+18:25:53.697 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:25:53.699 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:26:03.725 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+18:26:03.727 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:26:03.729 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:26:13.757 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+18:26:15.746 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

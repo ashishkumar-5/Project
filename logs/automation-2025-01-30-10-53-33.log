@@ -1,0 +1,21 @@
+10:54:37.431 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+10:54:37.854 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+10:54:37.910 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+10:54:39.167 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+10:54:43.305 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+10:54:43.306 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+10:54:45.020 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+10:54:45.025 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+10:54:46.454 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+10:54:46.896 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+10:54:46.953 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+10:54:47.321 [main] ERROR testCases.DeleteEmployeeTest - Test Failed
+10:54:51.723 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+10:54:51.723 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+10:54:52.276 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+10:54:53.397 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+10:54:54.920 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+10:54:55.372 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+10:54:55.427 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+10:54:56.678 [main] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+10:54:58.050 [main] INFO  utilities.Listeners - Execution completed

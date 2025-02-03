@@ -1,0 +1,46 @@
+16:49:18.016 [main] INFO  utilities.Listeners - Execution started
+16:49:28.320 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+16:49:28.329 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+16:49:31.163 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+16:49:31.177 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+16:49:34.319 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+16:49:41.187 [main] INFO  utilities.Listeners - addEmployee Test execution started
+16:49:41.189 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+16:49:43.606 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+16:49:48.088 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+16:49:52.513 [main] INFO  utilities.Listeners - addEmployee Test execution started
+16:49:52.515 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+16:49:59.755 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+16:50:03.854 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+16:50:05.155 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+16:50:05.721 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+16:50:06.271 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+16:50:06.372 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+16:50:06.991 [main] INFO  testCases.AddEmployeeTest - EmployeeId is matched
+16:50:19.042 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+16:50:19.044 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+16:50:22.318 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+16:50:24.696 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+16:50:25.760 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+16:50:25.863 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+16:50:34.900 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+16:50:34.901 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+16:50:37.057 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+16:50:38.768 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+16:50:39.338 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+16:50:39.431 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+16:50:39.930 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+16:50:48.197 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+16:50:48.198 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+16:50:51.851 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+16:50:53.570 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+16:50:54.286 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+16:50:54.384 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+16:51:03.804 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+16:51:03.806 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+16:51:07.164 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+16:51:08.621 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+16:51:09.156 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+16:51:09.253 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+16:51:09.810 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+16:51:11.732 [main] INFO  utilities.Listeners - Execution completed

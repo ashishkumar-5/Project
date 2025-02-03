@@ -1,0 +1,5 @@
+15:28:49.037 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+15:28:50.816 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+15:28:50.824 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+15:28:52.431 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+15:30:34.582 [main] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed

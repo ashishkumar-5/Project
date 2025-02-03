@@ -1,0 +1,29 @@
+20:03:06.652 [main] INFO  utilities.Listeners - Execution started
+20:03:11.001 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+20:03:11.005 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+20:03:12.734 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+20:03:12.740 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+20:03:15.209 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+20:03:15.222 [main] INFO  utilities.Listeners - addEmployee Test execution started
+20:03:15.223 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+20:03:16.778 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+20:03:20.323 [main] INFO  testCases.LoginandLogoutTest - New Employee added Successfully
+20:03:21.655 [main] INFO  testCases.LoginandLogoutTest - textToBePresentInElementLocatedis not found
+20:03:21.655 [main] INFO  testCases.LoginandLogoutTest - Success Message is matched
+20:03:22.166 [main] INFO  testCases.LoginandLogoutTest - elementToBeClickableis not found
+20:03:22.167 [main] INFO  testCases.LoginandLogoutTest - Successfully landed into Employee List page
+20:03:22.629 [main] INFO  testCases.LoginandLogoutTest - Created EmployeeId is entered in the employeeId field
+20:03:22.682 [main] INFO  testCases.LoginandLogoutTest - Created Employee details is displayed in the table
+20:03:23.169 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+20:03:23.186 [main] INFO  testCases.LoginandLogoutTest - EmployeeId is matched
+20:03:24.008 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+20:03:24.015 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+20:03:24.015 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+20:03:25.622 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+20:03:27.129 [main] INFO  testCases.LoginandLogoutTest - Successfully landed into Employee List page
+20:03:27.585 [main] INFO  testCases.LoginandLogoutTest - Created EmployeeId is entered in the employeeId field
+20:03:27.636 [main] INFO  testCases.LoginandLogoutTest - Created Employee details is displayed in the table
+20:03:28.075 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+20:03:28.084 [main] INFO  testCases.LoginandLogoutTest - EmployeeId is matched
+20:03:28.917 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+20:03:29.871 [main] INFO  utilities.Listeners - Execution completed

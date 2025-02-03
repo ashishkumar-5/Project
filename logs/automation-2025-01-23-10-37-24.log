@@ -1,0 +1,5 @@
+10:39:44.836 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+10:39:45.428 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+10:39:45.529 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+10:39:46.614 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+10:39:48.524 [main] INFO  utilities.Listeners - Execution completed

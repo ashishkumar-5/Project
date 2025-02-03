@@ -1,0 +1,46 @@
+11:52:32.791 [main] INFO  utilities.Listeners - Execution started
+11:52:38.104 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:52:38.106 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+11:52:39.837 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:52:39.844 [main] INFO  testCases.AddEmployeeTest - page title is matched
+11:52:43.598 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+11:52:46.043 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+11:52:46.523 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+11:52:46.993 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+11:52:47.057 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+11:52:47.938 [main] ERROR testCases.AddEmployeeTest - Test Failed
+11:52:52.097 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:52:52.097 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+11:52:52.695 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:52:54.030 [main] INFO  testCases.AddEmployeeTest - page title is matched
+11:52:57.963 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+11:52:59.720 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+11:53:00.187 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+11:53:00.633 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+11:53:00.691 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+11:53:01.679 [main] INFO  testCases.AddEmployeeTest - Logged out Successfully
+11:53:05.952 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+11:53:05.952 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+11:53:07.628 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+11:53:07.632 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+11:53:09.268 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+11:53:09.733 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+11:53:09.792 [main] INFO  testCases.ExistEmployeeDetailsTest - Searched Employee entry is found in the table
+11:53:11.884 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged out Successfully
+11:53:16.326 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+11:53:16.327 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+11:53:18.250 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+11:53:18.255 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+11:53:19.892 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+11:53:20.359 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+11:53:20.441 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+11:53:21.765 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+11:53:25.956 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+11:53:25.957 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+11:53:27.655 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+11:53:27.660 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+11:53:29.271 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+11:53:29.728 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+11:53:29.787 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+11:53:31.346 [main] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+11:53:32.716 [main] INFO  utilities.Listeners - Execution completed

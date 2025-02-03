@@ -1,0 +1,16 @@
+19:34:17.086 [main] INFO  utilities.Listeners - Execution started
+19:34:21.815 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:34:21.819 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:34:23.561 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+19:34:26.915 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+19:34:28.205 [main] INFO  testCases.AddEmployeeTest - textToBePresentInElementLocatedis not found
+19:34:28.214 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:34:28.215 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:34:38.249 [main] ERROR testCases.AddEmployeeTest - Test Failed
+19:34:38.251 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:34:38.252 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:34:48.309 [main] ERROR testCases.AddEmployeeTest - Test Failed
+19:34:48.312 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:34:48.312 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:34:52.696 [main] ERROR testCases.AddEmployeeTest - Test Failed
+19:34:53.592 [main] INFO  utilities.Listeners - Execution completed

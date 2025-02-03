@@ -1,0 +1,24 @@
+14:15:34.577 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+14:15:34.652 [main] INFO  testCases.ExistEmployeeDetailsTest - Searched Employee entry is found in the table
+14:15:35.106 [main] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+14:15:39.493 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:15:39.494 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:15:41.510 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+14:15:43.298 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+14:15:43.686 [main] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+14:15:48.024 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:15:48.024 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:15:50.071 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+14:15:51.498 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+14:15:51.968 [main] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+14:15:56.416 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:15:56.417 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:15:58.194 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+14:15:59.647 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+14:16:00.151 [main] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+14:16:04.654 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:04.655 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:06.418 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+14:16:07.863 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+14:16:08.358 [main] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+14:16:10.655 [main] INFO  utilities.Listeners - Execution completed

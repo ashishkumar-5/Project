@@ -1,0 +1,45 @@
+12:22:33.903 [main] INFO  utilities.Listeners - Execution started
+12:22:40.013 [main] INFO  utilities.Listeners - addEmployee Test execution started
+12:22:40.025 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+12:22:40.613 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+12:22:41.837 [main] INFO  testCases.AddEmployeeTest - page title is matched
+12:22:45.583 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+12:22:52.527 [main] INFO  utilities.Listeners - addEmployee Test execution started
+12:22:52.528 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+12:22:53.141 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+12:22:54.601 [main] INFO  testCases.AddEmployeeTest - page title is matched
+12:22:58.533 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+12:23:03.794 [main] INFO  utilities.Listeners - addEmployee Test execution started
+12:23:03.796 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+12:23:05.544 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+12:23:05.549 [main] INFO  testCases.AddEmployeeTest - page title is matched
+12:23:09.380 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+12:23:10.727 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+12:23:11.237 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+12:23:11.677 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+12:23:11.736 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+12:23:12.692 [main] INFO  testCases.AddEmployeeTest - Logged out Successfully
+12:23:16.696 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+12:23:16.697 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+12:23:18.584 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+12:23:18.589 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+12:23:20.263 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+12:23:20.704 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+12:23:20.778 [main] INFO  testCases.ExistEmployeeDetailsTest - Searched Employee entry is found in the table
+12:23:21.756 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged out Successfully
+12:23:26.083 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+12:23:26.084 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+12:23:26.663 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+12:23:27.831 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+12:23:29.528 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+12:23:30.000 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+12:23:30.065 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+12:23:35.107 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+12:23:35.108 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+12:23:36.899 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+12:23:36.903 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+12:23:38.599 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+12:23:39.029 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+12:23:39.087 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+12:23:40.508 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+12:23:42.117 [main] INFO  utilities.Listeners - Execution completed

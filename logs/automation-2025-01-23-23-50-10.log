@@ -1,0 +1,49 @@
+23:50:10.447 [main] INFO  utilities.Listeners - Execution started
+23:54:44.901 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+23:54:44.908 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+23:54:47.453 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+23:54:47.471 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+23:54:50.077 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+23:54:57.778 [main] INFO  utilities.Listeners - addEmployee Test execution started
+23:54:57.790 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+23:55:04.337 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+23:55:08.039 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+23:55:09.359 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+23:55:09.951 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+23:55:10.540 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+23:55:10.645 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+23:55:11.813 [main] ERROR testCases.AddEmployeeTest - Test Failed
+23:55:20.025 [main] INFO  utilities.Listeners - addEmployee Test execution started
+23:55:20.026 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+23:55:23.236 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+23:55:27.002 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+23:55:36.565 [main] INFO  utilities.Listeners - addEmployee Test execution started
+23:55:36.567 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+23:55:40.004 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+23:55:43.811 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+23:55:45.137 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+23:55:45.703 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+23:55:46.285 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+23:55:46.393 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+23:55:46.980 [main] ERROR testCases.AddEmployeeTest - Test Failed
+23:55:55.176 [main] INFO  utilities.Listeners - addEmployee Test execution started
+23:55:55.177 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+23:55:58.860 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+23:56:02.641 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+23:56:03.959 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+23:56:04.587 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+23:56:05.221 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+23:56:05.323 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+23:56:06.093 [main] ERROR testCases.AddEmployeeTest - Test Failed
+23:56:16.689 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+23:56:16.691 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+23:56:25.701 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+23:56:25.703 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+23:56:25.710 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+23:56:31.827 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+23:56:31.830 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+23:56:31.866 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+23:56:37.113 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+23:56:37.126 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+23:56:37.132 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+23:56:38.609 [main] INFO  utilities.Listeners - Execution completed

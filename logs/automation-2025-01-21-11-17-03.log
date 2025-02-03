@@ -1,0 +1,11 @@
+11:17:03.594 [main] INFO  utilities.Listeners - Execution started
+11:17:12.390 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:17:12.396 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+11:17:15.871 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+11:17:17.504 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+11:17:18.011 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+11:17:18.020 [main] INFO  testCases.EmployeeDetailsTest - elementToBeClickableis not found
+11:17:18.121 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+11:17:18.582 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+11:17:18.604 [main] INFO  testCases.EmployeeDetailsTest - EmployeeId is matched
+11:17:20.233 [main] INFO  utilities.Listeners - Execution completed

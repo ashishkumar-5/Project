@@ -1,0 +1,7 @@
+16:02:00.754 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:02:03.513 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+16:02:03.534 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+16:02:05.339 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+16:02:05.899 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+16:02:05.989 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+16:02:06.515 [main] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed

@@ -1,0 +1,12 @@
+12:55:28.822 [main] INFO  utilities.Listeners - Execution started
+12:55:33.133 [main] INFO  utilities.Listeners - addEmployee Test execution started
+12:55:33.139 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+12:55:34.915 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+12:55:34.922 [main] INFO  testCases.AddEmployeeTest - page title is matched
+12:55:38.593 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+12:55:39.880 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+12:55:40.346 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+12:55:40.789 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+12:55:40.844 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+12:56:51.955 [main] ERROR testCases.AddEmployeeTest - Test Failed
+12:56:53.305 [main] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,19 @@
+20:09:23.908 [main] INFO  utilities.Listeners - Execution started
+20:09:30.712 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+20:09:30.716 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+20:09:32.505 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+20:09:33.939 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+20:09:34.373 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+20:09:34.430 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+20:09:34.759 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+20:09:34.771 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+20:09:34.787 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+20:09:34.787 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+20:09:43.496 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+20:09:43.497 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+20:09:43.498 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+20:09:43.501 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+20:09:43.503 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+20:09:43.503 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+20:09:43.506 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+20:09:44.442 [main] INFO  utilities.Listeners - Execution completed

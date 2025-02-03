@@ -1,0 +1,14 @@
+12:20:19.966 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+12:20:21.753 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+12:20:23.300 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+12:20:23.741 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+12:20:23.798 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+12:20:25.022 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+12:20:29.086 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+12:20:29.087 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+12:20:30.864 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+12:20:32.381 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+12:20:32.866 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+12:20:32.921 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+12:20:33.519 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+12:20:35.482 [main] INFO  utilities.Listeners - Execution completed

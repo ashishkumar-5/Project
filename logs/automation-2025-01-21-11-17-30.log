@@ -1,0 +1,21 @@
+11:17:30.889 [main] INFO  utilities.Listeners - Execution started
+11:17:34.367 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+11:17:34.374 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:17:43.384 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:17:43.398 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+11:17:45.799 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+11:17:45.820 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:17:45.822 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:17:47.491 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:17:51.223 [main] INFO  testCases.LoginandLogoutTest - New Employee added Successfully
+11:17:52.518 [main] INFO  testCases.LoginandLogoutTest - textToBePresentInElementLocatedis not found
+11:17:52.525 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:17:52.526 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:18:02.554 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:18:02.557 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:18:02.559 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:18:09.157 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:18:09.160 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:18:09.161 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:18:09.168 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:18:10.635 [main] INFO  utilities.Listeners - Execution completed

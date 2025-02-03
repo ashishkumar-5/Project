@@ -1,0 +1,17 @@
+18:54:35.016 [main] INFO  utilities.Listeners - Execution started
+18:54:39.186 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:54:39.191 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:54:40.931 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:54:44.482 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:54:45.749 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+18:54:46.218 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:54:46.227 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:54:46.228 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:54:56.240 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:54:56.242 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:54:56.243 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:55:06.290 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:55:06.291 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:55:06.292 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:55:16.354 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:55:17.599 [main] INFO  utilities.Listeners - Execution completed

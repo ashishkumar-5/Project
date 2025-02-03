@@ -1,0 +1,6 @@
+16:14:52.268 [main] INFO  utilities.Listeners - Execution started
+16:14:56.562 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:14:56.568 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:14:58.315 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+16:14:58.326 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+16:15:00.005 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page

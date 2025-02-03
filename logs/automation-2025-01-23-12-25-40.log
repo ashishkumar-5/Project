@@ -1,0 +1,4 @@
+12:27:18.622 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+12:27:18.688 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+12:27:19.217 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+12:27:20.428 [main] INFO  utilities.Listeners - Execution completed

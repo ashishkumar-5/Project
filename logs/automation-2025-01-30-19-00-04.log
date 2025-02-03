@@ -1,0 +1,6 @@
+19:00:14.962 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+19:00:17.813 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+19:00:17.829 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+19:00:19.317 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+19:00:19.905 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+19:00:20.048 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table

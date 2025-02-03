@@ -1,0 +1,45 @@
+16:40:59.857 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:41:02.939 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+16:41:02.953 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+16:41:04.401 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+16:41:04.916 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+16:41:05.005 [main] INFO  testCases.ExistEmployeeDetailsTest - Searched Employee entry is found in the table
+16:41:05.539 [main] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+16:41:12.681 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:41:12.682 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:41:16.769 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+16:41:16.779 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+16:41:18.787 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+16:41:19.380 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+16:41:19.467 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee entry is not found in the table
+16:41:21.192 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+16:41:30.779 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:41:30.779 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:41:34.031 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+16:41:34.044 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+16:41:35.480 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+16:41:36.006 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+16:41:36.096 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+16:41:36.463 [main] ERROR testCases.DeleteEmployeeTest - Test Failed
+16:41:42.325 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:41:42.327 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:41:44.631 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+16:41:44.645 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+16:41:46.091 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+16:41:46.610 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+16:41:46.699 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+16:41:47.126 [main] ERROR testCases.DeleteEmployeeTest - Test Failed
+16:42:10.029 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:42:10.029 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:42:12.130 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+16:42:12.147 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+16:42:22.194 [main] ERROR testCases.DeleteEmployeeTest - Test Failed
+16:42:32.026 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:42:32.026 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:42:33.128 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+16:42:34.589 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+16:42:36.395 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+16:42:36.920 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+16:42:37.019 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+16:42:38.661 [main] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+16:42:40.424 [main] INFO  utilities.Listeners - Execution completed

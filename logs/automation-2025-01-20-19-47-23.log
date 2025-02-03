@@ -1,0 +1,8 @@
+19:47:23.323 [main] INFO  utilities.Listeners - Execution started
+19:47:43.975 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:47:43.979 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:47:52.505 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+19:48:04.485 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+19:48:06.203 [main] INFO  testCases.AddEmployeeTest - textToBePresentInElementLocatedis not found
+19:48:06.203 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+19:48:07.235 [main] INFO  utilities.Listeners - Execution completed

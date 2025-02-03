@@ -1,0 +1,38 @@
+11:07:59.540 [main] INFO  utilities.Listeners - Execution started
+11:08:10.010 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+11:08:10.019 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:08:13.428 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:08:13.440 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+11:08:16.315 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+11:08:16.338 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:08:16.341 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:08:18.014 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:08:21.809 [main] INFO  testCases.LoginandLogoutTest - New Employee added Successfully
+11:08:23.120 [main] INFO  testCases.LoginandLogoutTest - textToBePresentInElementLocatedis not found
+11:08:23.120 [main] INFO  testCases.LoginandLogoutTest - Success Message is matched
+11:08:23.699 [main] INFO  testCases.LoginandLogoutTest - Successfully landed into Employee List page
+11:08:24.257 [main] INFO  testCases.LoginandLogoutTest - Created EmployeeId is entered in the employeeId field
+11:08:24.257 [main] INFO  testCases.LoginandLogoutTest - elementToBeClickableis not found
+11:08:24.369 [main] INFO  testCases.LoginandLogoutTest - Created Employee details is displayed in the table
+11:08:25.769 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:08:25.770 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:08:35.801 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:08:35.804 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:08:35.805 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:08:45.820 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:08:45.823 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:08:45.824 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:08:55.879 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:08:56.062 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:08:56.063 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:09:06.100 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:09:06.102 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:09:06.103 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:09:16.125 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:09:16.128 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:09:16.129 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:09:26.174 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:09:26.177 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:09:26.178 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:09:36.241 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+11:09:38.265 [main] INFO  utilities.Listeners - Execution completed

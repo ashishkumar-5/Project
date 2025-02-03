@@ -1,0 +1,48 @@
+11:39:37.288 [main] INFO  utilities.Listeners - Execution started
+11:39:42.668 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+11:39:42.676 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+11:39:44.745 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+11:39:44.756 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+11:39:47.131 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+11:39:53.148 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:39:53.162 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+11:39:55.317 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:39:59.536 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+11:40:00.921 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+11:40:01.547 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+11:40:02.109 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+11:40:02.219 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+11:40:03.714 [main] ERROR testCases.AddEmployeeTest - Test Failed
+11:40:27.219 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:40:27.221 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+11:40:29.830 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:40:33.847 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+11:40:42.162 [main] INFO  utilities.Listeners - addEmployee Test execution started
+11:40:42.163 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+11:40:44.751 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:40:48.632 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+11:40:49.936 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+11:40:50.513 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+11:40:51.138 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+11:40:51.240 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+11:40:52.832 [main] INFO  testCases.AddEmployeeTest - EmployeeId is matched
+11:41:10.900 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:41:10.901 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+11:41:20.965 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+11:41:44.490 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:41:44.491 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+11:41:54.548 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+11:42:13.894 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:42:13.896 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+11:42:20.321 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+11:42:23.458 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+11:42:24.180 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+11:42:24.289 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+11:42:25.360 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+11:42:32.287 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+11:42:32.288 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+11:42:42.185 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+11:42:54.607 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+11:43:04.829 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+11:43:04.967 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+11:43:17.582 [main] INFO  utilities.Listeners - Execution completed

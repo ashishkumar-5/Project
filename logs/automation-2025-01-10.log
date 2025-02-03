@@ -1,0 +1,63 @@
+18:21:05.656 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:21:05.660 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:22:21.596 [main] INFO  utilities.Listeners - Execution started
+18:22:25.774 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:22:25.775 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:22:27.521 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:22:31.086 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:22:32.354 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+18:22:36.462 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+18:22:36.462 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+18:22:38.222 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+18:22:38.227 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+18:22:42.588 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+18:25:07.204 [main] INFO  utilities.Listeners - Execution started
+18:25:12.620 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:25:12.620 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:25:18.364 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+18:25:18.365 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+18:25:20.118 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+18:25:20.123 [main] ERROR testCases.LoginandLogoutTest - page title is not matched
+18:25:24.417 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+18:26:20.696 [main] INFO  utilities.Listeners - Execution started
+18:26:25.322 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:26:25.323 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:26:26.983 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:26:30.363 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:26:35.955 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+18:26:35.955 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+18:26:37.853 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+18:26:37.858 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+18:26:42.165 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+18:45:00.344 [main] INFO  utilities.Listeners - Execution started
+18:45:04.677 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:45:04.677 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:45:06.373 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:45:09.871 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:45:45.035 [main] INFO  utilities.Listeners - Execution started
+18:45:49.927 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:45:49.927 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:45:51.611 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:45:55.117 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:46:06.234 [main] INFO  utilities.Listeners - Execution started
+18:46:10.362 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:46:10.363 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:46:12.066 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:46:15.848 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:46:17.130 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+18:47:10.845 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+18:47:12.574 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+18:47:12.580 [main] ERROR testCases.LoginandLogoutTest - page title is not matched
+18:47:16.792 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+18:48:47.788 [main] INFO  utilities.Listeners - Execution started
+18:48:52.447 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:48:52.448 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:48:58.100 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+18:48:58.100 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+18:48:58.693 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+18:48:59.834 [main] ERROR testCases.LoginandLogoutTest - page title is not matched
+18:49:03.934 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+18:49:41.968 [main] INFO  utilities.Listeners - Execution started
+18:49:47.044 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:49:47.045 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:49:48.745 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully

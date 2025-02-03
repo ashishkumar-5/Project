@@ -1,0 +1,39 @@
+13:51:05.854 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:05.864 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:05.870 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:05.877 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:05.900 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+13:51:09.986 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+13:51:09.987 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+13:51:11.732 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+13:51:13.136 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+13:51:13.852 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+13:51:13.852 [main] INFO  testCases.EmployeeDetailsTest - elementToBeClickableis not found
+13:51:13.907 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+13:51:14.303 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.325 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.333 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.339 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.345 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.352 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.358 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.365 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.372 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.380 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.386 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.393 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.399 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.405 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.412 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.418 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.431 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.438 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.445 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.451 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.458 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.465 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.472 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.478 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.485 [main] INFO  testCases.EmployeeDetailsTest - visibilityOfElementLocatedis not found
+13:51:14.502 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+13:51:15.739 [main] INFO  utilities.Listeners - Execution completed

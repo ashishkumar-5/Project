@@ -1,0 +1,49 @@
+19:56:54.054 [main] INFO  utilities.Listeners - Execution started
+19:56:58.418 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+19:56:58.422 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:57:00.153 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+19:57:00.159 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+19:57:00.180 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:57:00.181 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:57:10.219 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+19:57:10.222 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:57:10.223 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:57:17.685 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+19:57:21.055 [main] INFO  testCases.LoginandLogoutTest - New Employee added Successfully
+19:57:22.324 [main] INFO  testCases.LoginandLogoutTest - textToBePresentInElementLocatedis not found
+19:57:22.325 [main] INFO  testCases.LoginandLogoutTest - Success Message is matched
+19:57:22.326 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+19:57:22.327 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:57:32.456 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+19:57:33.960 [main] INFO  testCases.LoginandLogoutTest - Successfully landed into Employee List page
+19:57:34.421 [main] INFO  testCases.LoginandLogoutTest - Created EmployeeId is entered in the employeeId field
+19:57:34.475 [main] INFO  testCases.LoginandLogoutTest - Created Employee details is displayed in the table
+19:57:34.955 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:57:34.974 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+19:57:34.975 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+19:57:34.975 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:57:44.993 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+19:57:44.995 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+19:57:44.995 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:57:50.330 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+19:57:51.869 [main] INFO  testCases.LoginandLogoutTest - Successfully landed into Employee List page
+19:57:52.303 [main] INFO  testCases.LoginandLogoutTest - Created EmployeeId is entered in the employeeId field
+19:57:52.350 [main] INFO  testCases.LoginandLogoutTest - Created Employee details is displayed in the table
+19:57:52.776 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:57:52.788 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:57:52.804 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:57:52.812 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+19:57:52.813 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+19:57:52.814 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+19:58:01.087 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+19:58:02.698 [main] INFO  testCases.LoginandLogoutTest - Successfully landed into Employee List page
+19:58:03.115 [main] INFO  testCases.LoginandLogoutTest - Created EmployeeId is entered in the employeeId field
+19:58:03.164 [main] INFO  testCases.LoginandLogoutTest - Created Employee details is displayed in the table
+19:58:03.544 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:58:03.552 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:58:03.559 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:58:03.567 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:58:03.576 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:58:03.583 [main] INFO  testCases.LoginandLogoutTest - visibilityOfElementLocatedis not found
+19:58:03.603 [main] ERROR testCases.LoginandLogoutTest - Test Failed
+19:58:04.837 [main] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,58 @@
+14:15:10.130 [main] INFO  utilities.Listeners - addEmployee Test execution started
+14:15:10.155 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+14:15:11.904 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:15:15.320 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+14:15:18.592 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+14:15:22.624 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+14:15:22.625 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+14:15:24.359 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+14:15:24.364 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+14:15:28.439 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+14:15:59.642 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:16:04.006 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+14:16:04.006 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+14:16:05.741 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:16:09.155 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+14:16:12.435 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+14:16:16.538 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+14:16:16.538 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+14:16:18.301 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+14:16:18.307 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - page title is matched
+14:16:22.725 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+14:17:35.186 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+14:17:35.186 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:17:39.646 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+14:17:39.646 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+14:17:40.077 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+14:17:40.077 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+14:17:41.631 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:17:55.376 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+14:18:01.289 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+14:18:01.289 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:18:05.654 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+14:18:05.654 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+14:18:06.099 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+14:18:06.099 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+14:18:07.725 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:18:19.691 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+14:19:18.663 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:19:23.024 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+14:19:23.024 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+14:19:24.803 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+14:19:24.810 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - page title is matched
+14:19:29.104 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+14:19:33.832 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+14:19:33.832 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+14:19:35.540 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:19:38.940 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+14:19:42.235 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+14:34:36.273 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+14:34:36.273 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:34:40.900 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+14:34:40.900 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+14:34:41.313 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+14:34:41.313 [TestNG-tests-1] INFO  testCases.LoginandLogoutTest - Landed into login page
+14:34:42.821 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:34:50.616 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+14:37:11.596 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:37:16.018 [TestNG-tests-1] INFO  utilities.Listeners - testLoginAndLogout Test execution started

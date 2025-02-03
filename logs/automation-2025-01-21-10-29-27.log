@@ -1,0 +1,33 @@
+10:29:27.539 [main] INFO  utilities.Listeners - Execution started
+10:29:37.507 [main] INFO  utilities.Listeners - testLoginAndLogout Test execution started
+10:29:37.517 [main] INFO  testCases.LoginandLogoutTest - Landed into login page
+10:29:40.519 [main] INFO  testCases.LoginandLogoutTest - Logged in Successfully
+10:29:40.534 [main] INFO  testCases.LoginandLogoutTest - page title is matched
+10:29:43.875 [main] INFO  testCases.LoginandLogoutTest - Logged out Successfully
+10:29:51.977 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:29:51.992 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:29:55.715 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+10:29:59.997 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+10:30:01.302 [main] INFO  testCases.AddEmployeeTest - textToBePresentInElementLocatedis not found
+10:30:01.303 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+10:30:01.898 [main] INFO  testCases.AddEmployeeTest - elementToBeClickableis not found
+10:30:01.898 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+10:30:02.507 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+10:30:02.612 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+10:30:03.363 [main] INFO  testCases.AddEmployeeTest - EmployeeId is matched
+10:30:13.729 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+10:30:13.731 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+10:30:17.208 [main] INFO  testCases.EmployeeDetailsTest - Logged in Successfully
+10:30:18.891 [main] INFO  testCases.EmployeeDetailsTest - Successfully landed into Employee List page
+10:30:19.387 [main] INFO  testCases.EmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+10:30:19.484 [main] INFO  testCases.EmployeeDetailsTest - Created Employee details is displayed in the table
+10:30:29.539 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+10:30:29.540 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+10:30:39.575 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+10:30:39.577 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+10:30:39.578 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+10:30:49.616 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+10:30:49.618 [main] INFO  utilities.Listeners - employeeDetails Test execution started
+10:30:49.619 [main] INFO  testCases.EmployeeDetailsTest - Landed into login page
+10:30:59.647 [main] ERROR testCases.EmployeeDetailsTest - Test Failed
+10:31:01.686 [main] INFO  utilities.Listeners - Execution completed

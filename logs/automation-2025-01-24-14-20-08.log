@@ -1,0 +1,32 @@
+14:20:08.656 [main] INFO  utilities.Listeners - Execution started
+14:20:13.990 [main] INFO  utilities.Listeners - addEmployee Test execution started
+14:20:13.995 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+14:20:15.995 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:20:19.562 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+14:20:20.866 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+14:20:21.381 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+14:20:21.851 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+14:20:21.919 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+14:20:22.424 [main] ERROR testCases.AddEmployeeTest - Test Failed
+14:20:26.907 [main] INFO  utilities.Listeners - addEmployee Test execution started
+14:20:26.908 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+14:20:28.696 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:20:32.348 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+14:20:33.650 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+14:20:34.155 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+14:20:34.624 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+14:20:34.694 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+14:20:35.154 [main] ERROR testCases.AddEmployeeTest - Test Failed
+14:20:39.562 [main] INFO  utilities.Listeners - addEmployee Test execution started
+14:20:39.563 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+14:20:41.883 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+14:20:45.347 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+14:20:46.641 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+14:20:47.211 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+14:20:47.672 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+14:20:47.744 [main] INFO  testCases.AddEmployeeTest - Created Employee details is displayed in the table
+14:20:48.176 [main] ERROR testCases.AddEmployeeTest - Test Failed
+14:20:51.008 [main] INFO  utilities.Listeners - addEmployee Test execution started
+14:20:51.009 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+14:20:51.013 [main] ERROR testCases.AddEmployeeTest - Test Failed
+14:20:52.427 [main] INFO  utilities.Listeners - Execution completed
