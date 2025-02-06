@@ -31,13 +31,13 @@ public class DeleteEmployeeTest extends BaseClass {
 			log.info("Successfully landed into Employee List page");
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
-			String employeeId = prop.getProperty("deleteemployeeid");
+			String employeeId = (String) jsonObj.get("deleteemployeeid");
 			emplistpage.enterEmployeeId(employeeId);
 			log.info("EmployeeId is entered in the employeeId field");
 			emplistpage.clickSearchBtn();
 			log.info("Searched Employee entry is not found in the table");
 			emplistpage.deleteEmployee(employeeId);
-			emplistpage.deleteEmployeeAction(prop.getProperty("actionname"));
+			emplistpage.deleteEmployeeAction((String) jsonObj.get("actionname"));
 			// Logout
 			loginlogout.logout();
 		}

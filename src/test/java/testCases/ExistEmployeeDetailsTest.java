@@ -34,7 +34,7 @@ public class ExistEmployeeDetailsTest extends BaseClass {
 			log.info("Successfully landed into Employee List page");
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
-			String employeeId = prop.getProperty("existingemployeeid");
+			String employeeId = (String) jsonObj.get("existingemployeeid");
 			emplistpage.enterEmployeeId(employeeId);
 			log.info("EmployeeId is entered in the employeeId field");
 			emplistpage.clickSearchBtn();
@@ -47,14 +47,11 @@ public class ExistEmployeeDetailsTest extends BaseClass {
 			}
 			// Logout
 			loginlogout.logout();
-
 		}
 
 		catch (Exception e) {
 			log.error("Test Failed");
 			Assert.fail();
 		}
-
 	}
-
 }

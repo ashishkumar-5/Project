@@ -7,13 +7,20 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testCases.ExistEmployeeDetailsTest">
+      <class name="testCases.AddEmployeeTest">
         <methods>
           <include name="tearDown"/>
-          <include name="existEmployeeDetails"/>
+          <include name="setup"/>
+          <include name="addEmployee"/>
+        </methods>
+      </class> <!-- testCases.AddEmployeeTest -->
+      <class name="testCases.DeleteEmployeeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="deleteEmployee"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testCases.ExistEmployeeDetailsTest -->
+      </class> <!-- testCases.DeleteEmployeeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,25 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results retried="4" ignored="0" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-31T11:15:06 IST" name="Default suite" finished-at="2025-01-31T11:15:16 IST" duration-ms="10641">
+  <suite started-at="2025-02-06T16:58:19 IST" name="Suite" finished-at="2025-02-06T17:01:00 IST" duration-ms="161072">
     <groups>
     </groups>
-    <test started-at="2025-01-31T11:15:06 IST" name="Default test" finished-at="2025-01-31T11:15:16 IST" duration-ms="10641">
-      <class name="testCases.DeleteEmployeeTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.DeleteEmployeeTest@384ad17b]" started-at="2025-01-31T11:15:06 IST" name="setup" finished-at="2025-01-31T11:15:10 IST" duration-ms="4621" status="PASS">
+    <test started-at="2025-02-06T16:58:19 IST" name="Test" finished-at="2025-02-06T17:01:00 IST" duration-ms="161072">
+      <class name="testCases.AddEmployeeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:58:19 IST" name="setup" finished-at="2025-02-06T16:58:25 IST" duration-ms="5940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deleteEmployee()[pri:0, instance:testCases.DeleteEmployeeTest@384ad17b]" started-at="2025-01-31T11:15:10 IST" name="deleteEmployee" finished-at="2025-01-31T11:15:16 IST" duration-ms="5817" status="PASS">
+        <test-method retried="true" signature="addEmployee()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:58:25 IST" name="addEmployee" finished-at="2025-02-06T16:58:35 IST" duration-ms="9217" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testCases.AddEmployeeTest.addEmployee(AddEmployeeTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:58:35 IST" name="tearDown" finished-at="2025-02-06T16:58:35 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:58:35 IST" name="setup" finished-at="2025-02-06T16:58:41 IST" duration-ms="6399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="addEmployee()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:58:41 IST" name="addEmployee" finished-at="2025-02-06T16:59:22 IST" duration-ms="40393" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testCases.AddEmployeeTest.addEmployee(AddEmployeeTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:22 IST" name="tearDown" finished-at="2025-02-06T16:59:22 IST" duration-ms="377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:22 IST" name="setup" finished-at="2025-02-06T16:59:25 IST" duration-ms="2704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="addEmployee()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:25 IST" name="addEmployee" finished-at="2025-02-06T16:59:39 IST" duration-ms="14764" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testCases.AddEmployeeTest.addEmployee(AddEmployeeTest.java:69)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:39 IST" name="tearDown" finished-at="2025-02-06T16:59:40 IST" duration-ms="245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:40 IST" name="setup" finished-at="2025-02-06T16:59:46 IST" duration-ms="6160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addEmployee()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:46 IST" name="addEmployee" finished-at="2025-02-06T16:59:57 IST" duration-ms="11195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.AddEmployeeTest@6379eb]" started-at="2025-02-06T16:59:57 IST" name="tearDown" finished-at="2025-02-06T16:59:59 IST" duration-ms="1895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.AddEmployeeTest -->
+      <class name="testCases.DeleteEmployeeTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.DeleteEmployeeTest@5c33f1a9]" started-at="2025-02-06T17:00:32 IST" name="setup" finished-at="2025-02-06T17:00:39 IST" duration-ms="6413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method retried="true" signature="deleteEmployee()[pri:0, instance:testCases.DeleteEmployeeTest@5c33f1a9]" started-at="2025-02-06T17:00:39 IST" name="deleteEmployee" finished-at="2025-02-06T17:00:43 IST" duration-ms="4726" status="SKIP">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at testCases.DeleteEmployeeTest.deleteEmployee(DeleteEmployeeTest.java:47)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteEmployee -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DeleteEmployeeTest@384ad17b]" started-at="2025-01-31T11:15:16 IST" name="tearDown" finished-at="2025-01-31T11:15:16 IST" duration-ms="178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DeleteEmployeeTest@5c33f1a9]" started-at="2025-02-06T17:00:43 IST" name="tearDown" finished-at="2025-02-06T17:00:44 IST" duration-ms="263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.DeleteEmployeeTest@5c33f1a9]" started-at="2025-02-06T17:00:44 IST" name="setup" finished-at="2025-02-06T17:00:52 IST" duration-ms="8492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteEmployee()[pri:0, instance:testCases.DeleteEmployeeTest@5c33f1a9]" started-at="2025-02-06T17:00:52 IST" name="deleteEmployee" finished-at="2025-02-06T17:00:59 IST" duration-ms="7147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.DeleteEmployeeTest@5c33f1a9]" started-at="2025-02-06T17:00:59 IST" name="tearDown" finished-at="2025-02-06T17:01:00 IST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.DeleteEmployeeTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCases.ExistEmployeeDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.ExistEmployeeDetailsTest@2b662a77]" started-at="2025-02-06T16:59:59 IST" name="setup" finished-at="2025-02-06T17:00:07 IST" duration-ms="8489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="existEmployeeDetails()[pri:0, instance:testCases.ExistEmployeeDetailsTest@2b662a77]" started-at="2025-02-06T17:00:07 IST" name="existEmployeeDetails" finished-at="2025-02-06T17:00:17 IST" duration-ms="9722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- existEmployeeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.ExistEmployeeDetailsTest@2b662a77]" started-at="2025-02-06T17:00:17 IST" name="tearDown" finished-at="2025-02-06T17:00:17 IST" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.ExistEmployeeDetailsTest -->
+      <class name="testCases.NotExistEmployeeDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.NotExistEmployeeDetailsTest@7f0eb4b4]" started-at="2025-02-06T17:00:17 IST" name="setup" finished-at="2025-02-06T17:00:26 IST" duration-ms="8132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="notExistEmployeeDetails()[pri:0, instance:testCases.NotExistEmployeeDetailsTest@7f0eb4b4]" started-at="2025-02-06T17:00:26 IST" name="notExistEmployeeDetails" finished-at="2025-02-06T17:00:32 IST" duration-ms="6461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notExistEmployeeDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.NotExistEmployeeDetailsTest@7f0eb4b4]" started-at="2025-02-06T17:00:32 IST" name="tearDown" finished-at="2025-02-06T17:00:32 IST" duration-ms="268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.NotExistEmployeeDetailsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

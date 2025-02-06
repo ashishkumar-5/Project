@@ -10,6 +10,7 @@ import pageObjects.EmployeeListPage;
 import pageObjects.LoginPage;
 import pageObjects.PIMPage;
 import testBase.BaseClass;
+import testBase.DataStore;
 
 @Listeners(utilities.Listeners.class)
 public class AddEmployeeTest extends BaseClass {
@@ -34,17 +35,18 @@ public class AddEmployeeTest extends BaseClass {
 			pimpage = new PIMPage(driver);
 			pimpage.clickAddEmployeeTab();
 			addemppage = new AddEmployeePage(driver);
-			addemppage.setFirstName(prop.getProperty("firstname"));
-			addemppage.setMiddleName(prop.getProperty("middlename"));
-			addemppage.setLastName(prop.getProperty("lastname"));
-			String employeeId = prop.getProperty("employeeid") + "" + randomNumber();
-			if (!prop.getProperty("employeeid").isEmpty()) {
+			addemppage.setFirstName((String) jsonObj.get("firstname"));
+			addemppage.setMiddleName((String) jsonObj.get("middlename"));
+			addemppage.setLastName((String) jsonObj.get("lastname"));
+			String employeeId = (String) jsonObj.get("employeeid") + "" + randomNumber();
+			DataStore.getInstance().store("storedEmployeeID", employeeId, false);
+			if (!((String) jsonObj.get("employeeid")).isEmpty()) {
 				addemppage.setEmployeeId(employeeId);
 			}
 
 			addemppage.clickSaveBtn();
 			log.info("New Employee added Successfully");
-			String expectedMsg = prop.getProperty("successmessage");
+			String expectedMsg = (String) jsonObj.get("successmessage");
 			Assert.assertEquals(addemppage.verifySuccessToastMessage(expectedMsg), expectedMsg);
 			log.info("Success Message is matched");
 
@@ -52,7 +54,8 @@ public class AddEmployeeTest extends BaseClass {
 			log.info("Successfully landed into Employee List page");
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
-			emplistpage.enterEmployeeId(employeeId);
+			String storedEmployeeId = DataStore.getInstance().get("storedEmployeeID");
+			emplistpage.enterEmployeeId(storedEmployeeId);
 			log.info("Created EmployeeId is entered in the employeeId field");
 			emplistpage.clickSearchBtn();
 			Assert.assertTrue(emplistpage.verifyEmployeeId(employeeId));

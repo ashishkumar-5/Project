@@ -14,13 +14,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- testCases.ExistEmployeeDetailsTest -->
-      <class name="testCases.AddEmployeeTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setup"/>
-          <include name="addEmployee"/>
-        </methods>
-      </class> <!-- testCases.AddEmployeeTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

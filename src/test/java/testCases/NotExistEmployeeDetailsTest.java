@@ -31,11 +31,11 @@ public class NotExistEmployeeDetailsTest extends BaseClass {
 			log.info("Successfully landed into Employee List page");
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
-			String employeeId = prop.getProperty("notexistemployeeid");
+			String employeeId = (String) jsonObj.get("notexistemployeeid");
 			emplistpage.enterEmployeeId(employeeId);
 			log.info("EmployeeId is entered in the employeeId field");
 			emplistpage.clickSearchBtn();
-			String noRecordsTxt = prop.getProperty("norecordstext");
+			String noRecordsTxt = (String) jsonObj.get("norecordstext");
 			Assert.assertEquals(emplistpage.verifyNoRecordsFoundText(noRecordsTxt), noRecordsTxt);
 			log.info("Searched Employee is not found in the table");
 			// Logout

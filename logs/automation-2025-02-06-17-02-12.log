@@ -1,0 +1,3 @@
+17:04:23.098 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+17:04:24.823 [main] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+17:04:26.442 [main] INFO  utilities.Listeners - Execution completed

@@ -8,10 +8,6 @@ public class DataStore {
 
 	private static final DataStore instance = new DataStore();
 
-	// Private constructor to prevent instantiation
-	private DataStore() {
-	}
-
 	public static DataStore getInstance() {
 		return instance;
 	}
@@ -30,7 +26,7 @@ public class DataStore {
 		if (dataMap.containsKey(key)) {
 			return (T) dataMap.get(key);
 		}
-		return null; // Return null if key is not found
+		return null;
 	}
 
 	public void remove(String key) {

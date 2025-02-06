@@ -1,7 +1,7 @@
 package testBase;
 
 import java.io.File;
-import java.io.FileInputStream;
+import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -10,6 +10,9 @@ import java.util.Random;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -26,32 +29,57 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static Properties prop;
 	public static Logger log;
+	public static JSONParser jsonParser;
+	public static JSONObject jsonObj;
 
 	@BeforeMethod
-	public void setup() throws IOException, InterruptedException {
+	public void setup() throws IOException, InterruptedException, ParseException {
 		Waits sync_Wait = new Waits();
 		log = LogManager.getLogger(this.getClass());
 
-		prop = new Properties();
 		String genericPath = System.getProperty("user.dir");
-		FileInputStream file = new FileInputStream(genericPath + "\\src\\test\\resources\\data.properties");
-		prop.load(file);
+//		prop = new Properties();
+//		FileInputStream file = new FileInputStream(genericPath + "\\src\\test\\resources\\data.properties");
+//		prop.load(file);
+//
+//		if (prop.getProperty("browser").equals("Chrome")) {
+//			driver = new ChromeDriver();
+//		} else if (prop.getProperty("browser").equals("Firefox")) {
+//			driver = new FirefoxDriver();
+//		} else if (prop.getProperty("browser").equals("Edge")) {
+//			driver = new EdgeDriver();
+//		} else if (prop.getProperty("browser").equals("IE")) {
+//			driver = new InternetExplorerDriver();
+//		} else {
+//			System.out.println("Invalid browser name");
+//		}
+//		
+//		driver.manage().deleteAllCookies();
+//		driver.manage().window().maximize();
+//		sync_Wait.implicitWait(driver);
+//		driver.get(prop.getProperty("websiteurl"));
 
-		if (prop.getProperty("browser").equals("Chrome")) {
+		JSONParser jsonParser = new JSONParser();
+		jsonObj = (JSONObject) jsonParser.parse(new FileReader(genericPath + "\\src\\test\\resources\\testdata.json"));
+
+		String browserName = (String) jsonObj.get("browser");
+
+		if (browserName.equals("Chrome")) {
 			driver = new ChromeDriver();
-		} else if (prop.getProperty("browser").equals("Firefox")) {
+		} else if (browserName.equals("Firefox")) {
 			driver = new FirefoxDriver();
-		} else if (prop.getProperty("browser").equals("Edge")) {
+		} else if (browserName.equals("Edge")) {
 			driver = new EdgeDriver();
-		} else if (prop.getProperty("browser").equals("IE")) {
+		} else if (browserName.equals("IE")) {
 			driver = new InternetExplorerDriver();
 		} else {
 			System.out.println("Invalid browser name");
 		}
+
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		sync_Wait.implicitWait(driver);
-		driver.get(prop.getProperty("websiteurl"));
+		driver.get((String) jsonObj.get("websiteurl"));
 
 	}
 

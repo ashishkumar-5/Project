@@ -13,11 +13,11 @@ public class LoginandLogoutTest extends BaseClass {
 			log.info("Landed into login page");
 			// LoginPage
 			LoginPage lpage = new LoginPage(driver);
-			lpage.setUserName(prop.getProperty("username"));
-			lpage.setPassword(prop.getProperty("password"));
+			lpage.setUserName((String) jsonObj.get("username"));
+			lpage.setPassword((String) jsonObj.get("password"));
 			lpage.clickLoginBtn();
 			log.info("Logged in Successfully");
-			if (driver.getTitle().equals(prop.getProperty("pagetitle"))) {
+			if (driver.getTitle().equals((String) jsonObj.get("pagetitle"))) {
 				Assert.assertTrue(true);
 				log.info("page title is matched");
 			} else {
@@ -38,12 +38,12 @@ public class LoginandLogoutTest extends BaseClass {
 			dbpage.clickUserProfileDropdown();
 			dbpage.clickLogoutBtn();
 			log.info("Logged out Successfully");
-			Assert.assertEquals(driver.getTitle(), prop.getProperty("pagetitle"));
+			Assert.assertEquals(driver.getTitle(), (String) jsonObj.get("pagetitle"));
 		} catch (Exception e) {
 			Assert.fail();
 			log.error("Test Failed");
 		}
 
 	}
-
 }
+

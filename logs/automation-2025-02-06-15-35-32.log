@@ -1,0 +1,10 @@
+15:35:32.731 [main] INFO  utilities.Listeners - Execution started
+15:35:41.352 [main] INFO  utilities.Listeners - addEmployee Test execution started
+15:35:41.364 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+15:35:57.728 [main] INFO  utilities.Listeners - addEmployee Test execution started
+15:35:57.730 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+15:36:15.234 [main] INFO  utilities.Listeners - addEmployee Test execution started
+15:36:15.236 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+15:36:31.350 [main] INFO  utilities.Listeners - addEmployee Test execution started
+15:36:31.377 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+15:36:32.882 [main] INFO  utilities.Listeners - Execution completed
