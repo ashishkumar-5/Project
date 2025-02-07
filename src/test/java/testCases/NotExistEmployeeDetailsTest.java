@@ -23,12 +23,15 @@ public class NotExistEmployeeDetailsTest extends BaseClass {
 			// Login
 			loginlogout = new LoginandLogoutTest();
 			loginlogout.login();
+			
 			// DashboardPage
 			dbpage = new DashboardPage(driver);
 			dbpage.clickPimMenu();
+			
 			// PIMPage
 			pimpage = new PIMPage(driver);
 			log.info("Successfully landed into Employee List page");
+			
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
 			String employeeId = (String) jsonObj.get("notexistemployeeid");
@@ -38,6 +41,7 @@ public class NotExistEmployeeDetailsTest extends BaseClass {
 			String noRecordsTxt = (String) jsonObj.get("norecordstext");
 			Assert.assertEquals(emplistpage.verifyNoRecordsFoundText(noRecordsTxt), noRecordsTxt);
 			log.info("Searched Employee is not found in the table");
+			
 			// Logout
 			loginlogout.logout();
 		}

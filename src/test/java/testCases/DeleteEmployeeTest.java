@@ -23,12 +23,15 @@ public class DeleteEmployeeTest extends BaseClass {
 			// Login
 			loginlogout = new LoginandLogoutTest();
 			loginlogout.login();
+
 			// DashboardPage
 			dbpage = new DashboardPage(driver);
 			dbpage.clickPimMenu();
+
 			// PIMPage
 			pimpage = new PIMPage(driver);
 			log.info("Successfully landed into Employee List page");
+
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
 			String employeeId = (String) jsonObj.get("deleteemployeeid");
@@ -38,6 +41,7 @@ public class DeleteEmployeeTest extends BaseClass {
 			log.info("Searched Employee entry is not found in the table");
 			emplistpage.deleteEmployee(employeeId);
 			emplistpage.deleteEmployeeAction((String) jsonObj.get("actionname"));
+
 			// Logout
 			loginlogout.logout();
 		}

@@ -28,9 +28,11 @@ public class AddEmployeeTest extends BaseClass {
 			// Login
 			loginlogout = new LoginandLogoutTest();
 			loginlogout.login();
+
 			// DashboardPage
 			dbpage = new DashboardPage(driver);
 			dbpage.clickPimMenu();
+
 			// PIMPage
 			pimpage = new PIMPage(driver);
 			pimpage.clickAddEmployeeTab();
@@ -39,27 +41,27 @@ public class AddEmployeeTest extends BaseClass {
 			addemppage.setMiddleName((String) jsonObj.get("middlename"));
 			addemppage.setLastName((String) jsonObj.get("lastname"));
 			String employeeId = (String) jsonObj.get("employeeid") + "" + randomNumber();
-			DataStore.getInstance().store("storedEmployeeID", employeeId, false);
 			if (!((String) jsonObj.get("employeeid")).isEmpty()) {
 				addemppage.setEmployeeId(employeeId);
 			}
-
+			DataStore.getInstance().store("storedEmployeeID", employeeId, true);
 			addemppage.clickSaveBtn();
 			log.info("New Employee added Successfully");
 			String expectedMsg = (String) jsonObj.get("successmessage");
 			Assert.assertEquals(addemppage.verifySuccessToastMessage(expectedMsg), expectedMsg);
 			log.info("Success Message is matched");
-
 			pimpage.clickEmployeeListTab();
 			log.info("Successfully landed into Employee List page");
+
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
 			String storedEmployeeId = DataStore.getInstance().get("storedEmployeeID");
 			emplistpage.enterEmployeeId(storedEmployeeId);
 			log.info("Created EmployeeId is entered in the employeeId field");
 			emplistpage.clickSearchBtn();
-			Assert.assertTrue(emplistpage.verifyEmployeeId(employeeId));
+			Assert.assertTrue(emplistpage.verifyEmployeeId(storedEmployeeId));
 			log.info("Created Employee is displayed in the table");
+
 			// Logout
 			loginlogout.logout();
 		}

@@ -1,6 +1,7 @@
 package testBase;
 
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -38,29 +39,13 @@ public class BaseClass {
 		log = LogManager.getLogger(this.getClass());
 
 		String genericPath = System.getProperty("user.dir");
-//		prop = new Properties();
-//		FileInputStream file = new FileInputStream(genericPath + "\\src\\test\\resources\\data.properties");
-//		prop.load(file);
-//
-//		if (prop.getProperty("browser").equals("Chrome")) {
-//			driver = new ChromeDriver();
-//		} else if (prop.getProperty("browser").equals("Firefox")) {
-//			driver = new FirefoxDriver();
-//		} else if (prop.getProperty("browser").equals("Edge")) {
-//			driver = new EdgeDriver();
-//		} else if (prop.getProperty("browser").equals("IE")) {
-//			driver = new InternetExplorerDriver();
-//		} else {
-//			System.out.println("Invalid browser name");
-//		}
-//		
-//		driver.manage().deleteAllCookies();
-//		driver.manage().window().maximize();
-//		sync_Wait.implicitWait(driver);
-//		driver.get(prop.getProperty("websiteurl"));
+		prop = new Properties();
+		FileInputStream file = new FileInputStream(genericPath + "\\src\\test\\resources\\data.properties");
+		prop.load(file);
+
 
 		JSONParser jsonParser = new JSONParser();
-		jsonObj = (JSONObject) jsonParser.parse(new FileReader(genericPath + "\\src\\test\\resources\\testdata.json"));
+		jsonObj = (JSONObject) jsonParser.parse(new FileReader(genericPath + "\\src\\test\\resources\\testData\\testdata.json"));
 
 		String browserName = (String) jsonObj.get("browser");
 
@@ -79,7 +64,7 @@ public class BaseClass {
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		sync_Wait.implicitWait(driver);
-		driver.get((String) jsonObj.get("websiteurl"));
+		driver.get(prop.getProperty("websiteurl"));
 
 	}
 

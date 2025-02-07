@@ -26,12 +26,15 @@ public class ExistEmployeeDetailsTest extends BaseClass {
 			// Login
 			loginlogout = new LoginandLogoutTest();
 			loginlogout.login();
+			
 			// DashboardPage
 			dbpage = new DashboardPage(driver);
 			dbpage.clickPimMenu();
+			
 			// PIMPage
 			pimpage = new PIMPage(driver);
 			log.info("Successfully landed into Employee List page");
+			
 			// EmployeeListPage
 			emplistpage = new EmployeeListPage(driver);
 			String employeeId = (String) jsonObj.get("existingemployeeid");
@@ -45,6 +48,7 @@ public class ExistEmployeeDetailsTest extends BaseClass {
 				Assert.assertFalse(false);
 				log.info("No employees in the list");
 			}
+			
 			// Logout
 			loginlogout.logout();
 		}

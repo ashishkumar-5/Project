@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,  1 skipped,  4 passed</span>
+                    <span class="method-stats">6 methods,  2 skipped,  4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Retried methods</span>
@@ -101,6 +101,11 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
                     </span>
                     <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.ExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="existEmployeeDetails">existEmployeeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.ExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="existEmployeeDetails">existEmployeeDetails</a> <!-- method navigator-link -->
@@ -159,7 +164,19 @@
                   </a> <!-- existEmployeeDetails -->
                   <span class="method-name">existEmployeeDetails</span>
                   <div class="stack-trace">java.lang.AssertionError: null
-	at testCases.ExistEmployeeDetailsTest.existEmployeeDetails(ExistEmployeeDetailsTest.java:54)
+	at testCases.ExistEmployeeDetailsTest.existEmployeeDetails(ExistEmployeeDetailsTest.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="existEmployeeDetails">
+                  </a> <!-- existEmployeeDetails -->
+                  <span class="method-name">existEmployeeDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.ExistEmployeeDetailsTest.existEmployeeDetails(ExistEmployeeDetailsTest.java:58)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 ... Removed 31 stack frames
 </div> <!-- stack-trace -->
@@ -286,32 +303,36 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addEmployee')
 data.setCell(0, 2, 'testCases.AddEmployeeTest')
-data.setCell(0, 3, 16641);
+data.setCell(0, 3, 11266);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'deleteEmployee')
 data.setCell(1, 2, 'testCases.DeleteEmployeeTest')
-data.setCell(1, 3, 7012);
+data.setCell(1, 3, 9089);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'notExistEmployeeDetails')
 data.setCell(2, 2, 'testCases.NotExistEmployeeDetailsTest')
-data.setCell(2, 3, 6665);
+data.setCell(2, 3, 6723);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'existEmployeeDetails')
 data.setCell(3, 2, 'testCases.ExistEmployeeDetailsTest')
-data.setCell(3, 3, 6415);
+data.setCell(3, 3, 6003);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'existEmployeeDetails')
 data.setCell(4, 2, 'testCases.ExistEmployeeDetailsTest')
-data.setCell(4, 3, 6022);
+data.setCell(4, 3, 5328);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'existEmployeeDetails')
+data.setCell(5, 2, 'testCases.ExistEmployeeDetailsTest')
+data.setCell(5, 3, 4892);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 42 seconds</span>
+              <span class="suite-total-time">Total running time: 43 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -344,68 +365,80 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addEmployee</span>
-                <span class="method-start">3282 ms</span>
+                <span class="method-start">6001 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">19936 ms</span>
+                <span class="method-start">17278 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">21841 ms</span>
+                <span class="method-start">17520 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">existEmployeeDetails</span>
-                <span class="method-start">28328 ms</span>
+                <span class="method-start">22251 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">34351 ms</span>
+                <span class="method-start">27144 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">34589 ms</span>
+                <span class="method-start">27368 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">existEmployeeDetails</span>
-                <span class="method-start">43024 ms</span>
+                <span class="method-start">32622 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49440 ms</span>
+                <span class="method-start">37950 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">38163 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">existEmployeeDetails</span>
+                <span class="method-start">42799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48802 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.NotExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">49688 ms</span>
+                <span class="method-start">49009 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">notExistEmployeeDetails</span>
-                <span class="method-start">57821 ms</span>
+                <span class="method-start">53805 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">64487 ms</span>
+                <span class="method-start">60529 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.DeleteEmployeeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">64761 ms</span>
+                <span class="method-start">60776 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">deleteEmployee</span>
-                <span class="method-start">71896 ms</span>
+                <span class="method-start">65492 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">78909 ms</span>
+                <span class="method-start">74581 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
