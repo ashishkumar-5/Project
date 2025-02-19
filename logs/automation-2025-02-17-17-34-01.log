@@ -1,0 +1,49 @@
+17:34:01.503 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:34:01.503 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:34:12.312 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:34:12.317 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:34:15.443 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:34:15.459 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:34:16.053 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:34:16.055 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:34:18.701 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:34:18.713 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+17:34:19.700 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:34:21.002 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:34:21.562 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:34:22.155 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:34:22.635 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+17:34:22.742 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:34:24.540 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:34:25.158 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:34:25.707 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:34:26.418 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:34:27.586 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:34:33.001 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:34:33.001 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+17:34:33.099 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+17:34:33.100 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+17:34:33.930 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+17:34:35.140 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+17:34:35.148 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+17:34:35.289 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+17:34:36.810 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:34:37.453 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:34:38.542 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+17:34:38.889 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - New Employee added Successfully
+17:34:39.509 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+17:34:40.227 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Success Message is matched
+17:34:40.799 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:34:40.975 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+17:34:41.437 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Created EmployeeId is entered in the employeeId field
+17:34:42.673 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Created Employee is displayed in the table
+17:34:43.577 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+17:34:52.297 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+17:34:52.297 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+17:34:54.481 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+17:34:54.487 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+17:34:56.375 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:34:56.901 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:34:57.810 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+17:34:58.808 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+17:35:00.745 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

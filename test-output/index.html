@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -56,7 +56,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">1 test</span>
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">13 methods,  1 skipped,  12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.ExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="existEmployeeDetails">existEmployeeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -109,12 +123,52 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.AddEmployeeTest" class="method navigator-link" hash-for-method="addEmployee">addEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.AddEmployeeTest" class="method navigator-link" hash-for-method="addEmployee">addEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.DeleteEmployeeTest" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.DeleteEmployeeTest" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.DeleteEmployeeTest" class="method navigator-link" hash-for-method="deleteEmployee">deleteEmployee</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testCases.ExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="existEmployeeDetails">existEmployeeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.ExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="existEmployeeDetails">existEmployeeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.ExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="existEmployeeDetails">existEmployeeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NotExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="notExistEmployeeDetails">notExistEmployeeDetails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NotExistEmployeeDetailsTest" class="method navigator-link" hash-for-method="notExistEmployeeDetails">notExistEmployeeDetails</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -134,21 +188,30 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.NotExistEmployeeDetailsTest</span>
+              <img src="skipped.png"/>
+              <span class="class-name">testCases.ExistEmployeeDetailsTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="notExistEmployeeDetails">
-                  </a> <!-- notExistEmployeeDetails -->
-                  <span class="method-name">notExistEmployeeDetails</span>
+                  <a name="existEmployeeDetails">
+                  </a> <!-- existEmployeeDetails -->
+                  <span class="method-name">existEmployeeDetails</span>
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at testCases.ExistEmployeeDetailsTest.existEmployeeDetails(ExistEmployeeDetailsTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
+          </div> <!-- suite-Suite-class-skipped -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -162,19 +225,18 @@
                   <span class="method-name">addEmployee</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testCases.ExistEmployeeDetailsTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="existEmployeeDetails">
-                  </a> <!-- existEmployeeDetails -->
-                  <span class="method-name">existEmployeeDetails</span>
+                  <a name="addEmployee">
+                  </a> <!-- addEmployee -->
+                  <span class="method-name">addEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmployee">
+                  </a> <!-- addEmployee -->
+                  <span class="method-name">addEmployee</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,6 +254,78 @@
                   <span class="method-name">deleteEmployee</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployee">
+                  </a> <!-- deleteEmployee -->
+                  <span class="method-name">deleteEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteEmployee">
+                  </a> <!-- deleteEmployee -->
+                  <span class="method-name">deleteEmployee</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.NotExistEmployeeDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="notExistEmployeeDetails">
+                  </a> <!-- notExistEmployeeDetails -->
+                  <span class="method-name">notExistEmployeeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notExistEmployeeDetails">
+                  </a> <!-- notExistEmployeeDetails -->
+                  <span class="method-name">notExistEmployeeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="notExistEmployeeDetails">
+                  </a> <!-- notExistEmployeeDetails -->
+                  <span class="method-name">notExistEmployeeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.ExistEmployeeDetailsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="existEmployeeDetails">
+                  </a> <!-- existEmployeeDetails -->
+                  <span class="method-name">existEmployeeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="existEmployeeDetails">
+                  </a> <!-- existEmployeeDetails -->
+                  <span class="method-name">existEmployeeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="existEmployeeDetails">
+                  </a> <!-- existEmployeeDetails -->
+                  <span class="method-name">existEmployeeDetails</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
@@ -203,19 +337,38 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;utilities.Listeners&quot;/&gt;
     &lt;listener class-name=&quot;utilities.RetryListener&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;Chrome&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;testCases.AddEmployeeTest&quot;/&gt;
-      &lt;class name=&quot;testCases.ExistEmployeeDetailsTest&quot;/&gt;
       &lt;class name=&quot;testCases.NotExistEmployeeDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ExistEmployeeDetailsTest&quot;/&gt;
       &lt;class name=&quot;testCases.DeleteEmployeeTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Edge Test&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;Edge&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.AddEmployeeTest&quot;/&gt;
+      &lt;class name=&quot;testCases.NotExistEmployeeDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ExistEmployeeDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testCases.DeleteEmployeeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Edge Test --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Firefox Test&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.AddEmployeeTest&quot;/&gt;
+      &lt;class name=&quot;testCases.NotExistEmployeeDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testCases.ExistEmployeeDetailsTest&quot;/&gt;
+      &lt;class name=&quot;testCases.DeleteEmployeeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Firefox Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -227,7 +380,13 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (4 classes)</span>
+                <span class="test-name">Chrome Test (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Edge Test (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Firefox Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -253,28 +412,64 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(13);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'addEmployee')
 data.setCell(0, 2, 'testCases.AddEmployeeTest')
-data.setCell(0, 3, 12201);
+data.setCell(0, 3, 26866);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'notExistEmployeeDetails')
-data.setCell(1, 2, 'testCases.NotExistEmployeeDetailsTest')
-data.setCell(1, 3, 6760);
+data.setCell(1, 1, 'addEmployee')
+data.setCell(1, 2, 'testCases.AddEmployeeTest')
+data.setCell(1, 3, 26577);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'deleteEmployee')
-data.setCell(2, 2, 'testCases.DeleteEmployeeTest')
-data.setCell(2, 3, 6638);
+data.setCell(2, 1, 'addEmployee')
+data.setCell(2, 2, 'testCases.AddEmployeeTest')
+data.setCell(2, 3, 26239);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'existEmployeeDetails')
-data.setCell(3, 2, 'testCases.ExistEmployeeDetailsTest')
-data.setCell(3, 3, 5801);
+data.setCell(3, 1, 'deleteEmployee')
+data.setCell(3, 2, 'testCases.DeleteEmployeeTest')
+data.setCell(3, 3, 13374);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'deleteEmployee')
+data.setCell(4, 2, 'testCases.DeleteEmployeeTest')
+data.setCell(4, 3, 12456);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'existEmployeeDetails')
+data.setCell(5, 2, 'testCases.ExistEmployeeDetailsTest')
+data.setCell(5, 3, 12423);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'notExistEmployeeDetails')
+data.setCell(6, 2, 'testCases.NotExistEmployeeDetailsTest')
+data.setCell(6, 3, 12385);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'deleteEmployee')
+data.setCell(7, 2, 'testCases.DeleteEmployeeTest')
+data.setCell(7, 3, 12257);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'existEmployeeDetails')
+data.setCell(8, 2, 'testCases.ExistEmployeeDetailsTest')
+data.setCell(8, 3, 11712);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'notExistEmployeeDetails')
+data.setCell(9, 2, 'testCases.NotExistEmployeeDetailsTest')
+data.setCell(9, 3, 11069);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'notExistEmployeeDetails')
+data.setCell(10, 2, 'testCases.NotExistEmployeeDetailsTest')
+data.setCell(10, 3, 11030);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'existEmployeeDetails')
+data.setCell(11, 2, 'testCases.ExistEmployeeDetailsTest')
+data.setCell(11, 3, 10426);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'existEmployeeDetails')
+data.setCell(12, 2, 'testCases.ExistEmployeeDetailsTest')
+data.setCell(12, 3, 9477);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 31 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -302,61 +497,205 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.AddEmployeeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addEmployee</span>
-                <span class="method-start">5676 ms</span>
+                <span class="method-start">9251 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">17889 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">18170 ms</span>
-              </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">existEmployeeDetails</span>
-                <span class="method-start">23912 ms</span>
+                <span class="method-name">addEmployee</span>
+                <span class="method-start">10382 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addEmployee</span>
+                <span class="method-start">13051 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">29714 ms</span>
+                <span class="method-start">35505 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.NotExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">29919 ms</span>
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">35939 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.AddEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">36961 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.NotExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">38417 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.AddEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39919 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.NotExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">41408 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">notExistEmployeeDetails</span>
-                <span class="method-start">35283 ms</span>
+                <span class="method-start">46848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notExistEmployeeDetails</span>
+                <span class="method-start">47488 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">notExistEmployeeDetails</span>
+                <span class="method-start">48640 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">42044 ms</span>
+                <span class="method-start">57918 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">58178 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.NotExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59672 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">59875 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">60816 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">61144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">existEmployeeDetails</span>
+                <span class="method-start">65992 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">existEmployeeDetails</span>
+                <span class="method-start">67818 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">existEmployeeDetails</span>
+                <span class="method-start">69126 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">76421 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testCases.DeleteEmployeeTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setup</span>
-                <span class="method-start">42284 ms</span>
+                <span class="method-name">setup(Chrome)</span>
+                <span class="method-start">76803 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">78773 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">80839 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.DeleteEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Firefox)</span>
+                <span class="method-start">82159 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">deleteEmployee</span>
-                <span class="method-start">47165 ms</span>
+                <span class="method-start">84075 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">existEmployeeDetails</span>
+                <span class="method-start">85769 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.DeleteEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">deleteEmployee</span>
+                <span class="method-start">90430 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">53804 ms</span>
+                <span class="method-start">96533 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.ExistEmployeeDetailsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">98193 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.DeleteEmployeeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(Edge)</span>
+                <span class="method-start">99728 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">103805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">deleteEmployee</span>
+                <span class="method-start">107004 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">119261 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

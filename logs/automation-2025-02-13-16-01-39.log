@@ -1,0 +1,37 @@
+16:01:40.002 [main] INFO  utilities.Listeners - Execution started
+16:01:46.847 [TestNG-test=Parallel Test-1] INFO  utilities.Listeners - addEmployee Test execution started
+16:01:46.854 [TestNG-test=Parallel Test-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:01:47.298 [TestNG-test=Parallel Test-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:01:47.302 [TestNG-test=Parallel Test-2] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:01:47.885 [TestNG-test=Parallel Test-1] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+16:01:48.925 [TestNG-test=Parallel Test-1] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+16:01:55.181 [TestNG-test=Parallel Test-1] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+16:01:55.305 [TestNG-test=Parallel Test-1] INFO  utilities.Listeners - addEmployee Test execution started
+16:01:55.306 [TestNG-test=Parallel Test-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:01:55.309 [TestNG-test=Parallel Test-1] INFO  utilities.Listeners - addEmployee Test execution started
+16:01:55.310 [TestNG-test=Parallel Test-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:01:55.314 [TestNG-test=Parallel Test-1] INFO  utilities.Listeners - addEmployee Test execution started
+16:01:55.315 [TestNG-test=Parallel Test-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+16:01:57.212 [TestNG-test=Parallel Test-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:01:57.213 [TestNG-test=Parallel Test-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:01:57.222 [TestNG-test=Parallel Test-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:01:57.223 [TestNG-test=Parallel Test-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:01:57.228 [TestNG-test=Parallel Test-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:01:57.229 [TestNG-test=Parallel Test-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:01:57.975 [TestNG-test=Parallel Test-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:01:57.977 [TestNG-test=Parallel Test-3] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:01:59.958 [TestNG-test=Parallel Test-4] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:01:59.959 [TestNG-test=Parallel Test-4] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:02:01.658 [TestNG-test=Parallel Test-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:02:01.659 [TestNG-test=Parallel Test-3] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:02:01.802 [TestNG-test=Parallel Test-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:02:01.803 [TestNG-test=Parallel Test-3] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:02:01.804 [TestNG-test=Parallel Test-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:02:01.805 [TestNG-test=Parallel Test-3] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+16:02:04.624 [TestNG-test=Parallel Test-4] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:02:04.625 [TestNG-test=Parallel Test-4] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:02:07.481 [TestNG-test=Parallel Test-4] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:02:07.482 [TestNG-test=Parallel Test-4] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:02:10.022 [TestNG-test=Parallel Test-4] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:02:10.023 [TestNG-test=Parallel Test-4] INFO  testCases.DeleteEmployeeTest - Landed into login page
+16:02:10.993 [main] INFO  utilities.Listeners - Execution completed

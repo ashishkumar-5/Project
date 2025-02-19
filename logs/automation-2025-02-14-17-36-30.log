@@ -1,0 +1,9 @@
+17:36:30.889 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:36:30.889 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:36:34.692 [TestNG-test=Chrome Test-4] INFO  utilities.Listeners - deleteEmployee Test execution started
+17:36:34.693 [TestNG-test=Chrome Test-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:36:34.694 [TestNG-test=Chrome Test-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+17:36:34.697 [TestNG-test=Chrome Test-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+17:36:36.143 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:36:36.929 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+17:36:36.929 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

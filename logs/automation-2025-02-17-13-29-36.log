@@ -1,0 +1,6 @@
+13:30:30.509 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:30:31.811 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:30:32.308 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:30:32.778 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:30:33.328 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:30:33.635 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

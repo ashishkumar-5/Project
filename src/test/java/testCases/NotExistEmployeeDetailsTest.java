@@ -6,13 +6,11 @@ import org.testng.annotations.Test;
 import pageObjects.DashboardPage;
 import pageObjects.EmployeeListPage;
 import pageObjects.LoginPage;
-import pageObjects.PIMPage;
 import testBase.BaseClass;
 
 public class NotExistEmployeeDetailsTest extends BaseClass {
 	LoginPage lpage;
 	DashboardPage dbpage;
-	PIMPage pimpage;
 	EmployeeListPage emplistpage;
 	LoginandLogoutTest loginlogout;
 
@@ -23,17 +21,16 @@ public class NotExistEmployeeDetailsTest extends BaseClass {
 			// Login
 			loginlogout = new LoginandLogoutTest();
 			loginlogout.login();
-			
+
 			// DashboardPage
-			dbpage = new DashboardPage(driver);
+			dbpage = new DashboardPage(getDriver());
 			dbpage.clickPimMenu();
-			
+
 			// PIMPage
-			pimpage = new PIMPage(driver);
 			log.info("Successfully landed into Employee List page");
-			
+
 			// EmployeeListPage
-			emplistpage = new EmployeeListPage(driver);
+			emplistpage = new EmployeeListPage(getDriver());
 			String employeeId = (String) jsonObj.get("notexistemployeeid");
 			emplistpage.enterEmployeeId(employeeId);
 			log.info("EmployeeId is entered in the employeeId field");
@@ -41,7 +38,7 @@ public class NotExistEmployeeDetailsTest extends BaseClass {
 			String noRecordsTxt = (String) jsonObj.get("norecordstext");
 			Assert.assertEquals(emplistpage.verifyNoRecordsFoundText(noRecordsTxt), noRecordsTxt);
 			log.info("Searched Employee is not found in the table");
-			
+
 			// Logout
 			loginlogout.logout();
 		}

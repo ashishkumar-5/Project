@@ -1,0 +1,20 @@
+13:13:52.166 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+13:13:52.166 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+13:13:58.190 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:13:59.356 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:14:09.412 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:19.436 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:20.850 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:14:20.851 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:20.855 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:14:20.856 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:20.862 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:14:20.863 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:23.229 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+13:14:25.780 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:14:35.835 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:41.102 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:14:51.127 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:14:58.165 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:15:08.226 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:15:09.499 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

@@ -13,11 +13,11 @@ public class Waits extends BaseClass {
 	public static WebDriverWait wait;
 
 	public void implicitWait(WebDriver driver) {
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 	}
 
 	public void explicitWait(WebDriver driver, String locator, String path, String condition, String text) {
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(getDriver(), Duration.ofSeconds(30));
 		switch (condition.toLowerCase()) {
 		case "visibilityofelementlocated":
 			if (locator.toLowerCase() == "xpath") {
@@ -33,6 +33,10 @@ public class Waits extends BaseClass {
 		case "elementtobeclickable":
 			if (locator.toLowerCase() == "xpath") {
 				wait.until(ExpectedConditions.elementToBeClickable(By.xpath(path)));
+			}
+		case "invisibilityofelementlocated":
+			if (locator.toLowerCase() == "xpath") {
+				wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath(path)));
 			}
 			break;
 		default:

@@ -1,0 +1,4 @@
+10:15:12.763 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+10:15:12.859 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+10:15:14.960 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+10:15:15.706 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

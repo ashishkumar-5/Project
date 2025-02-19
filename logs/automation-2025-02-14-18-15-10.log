@@ -1,0 +1,4 @@
+18:15:44.927 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:15:46.002 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:15:47.253 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+18:15:47.254 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

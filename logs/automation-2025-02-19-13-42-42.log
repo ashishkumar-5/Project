@@ -1,0 +1,22 @@
+13:43:50.018 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Landed into login page
+13:43:51.045 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+13:43:51.314 [TestNG-tests-3] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+13:43:51.809 [TestNG-tests-3] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+13:43:51.947 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+13:43:51.953 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - page title is matched
+13:43:52.033 [TestNG-tests-3] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+13:43:53.497 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+13:43:54.081 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+13:43:54.167 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+13:43:54.431 [TestNG-tests-3] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+13:43:54.645 [TestNG-tests-1] ERROR testCases.DeleteEmployeeTest - Test Failed
+13:43:55.490 [TestNG-tests-3] INFO  utilities.Listeners - Execution completed
+13:43:59.362 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+13:43:59.363 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Landed into login page
+13:43:59.984 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+13:44:01.139 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - page title is matched
+13:44:02.591 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+13:44:03.070 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+13:44:03.133 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+13:44:04.901 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+13:44:05.443 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

@@ -16,6 +16,7 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.model.Media;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
@@ -63,24 +64,23 @@ public class Listeners implements ITestListener {
 	public void onTestFailure(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
-
-		test.log(Status.FAIL, result.getName() + " got failed");
-		test.log(Status.INFO, result.getThrowable().getMessage());
-
+		Media imgPath = null;
 		try {
-			String imgPath = new BaseClass().captureScreen(result.getName());
-			test.addScreenCaptureFromPath(imgPath);
+			imgPath = new BaseClass().captureScreen(result.getName());
 		} catch (IOException e) {
 			e.printStackTrace();
 
 		}
+
+		test.log(Status.FAIL, imgPath);
+		test.log(Status.INFO, result.getName() + " got failed");
+
 	}
 
 	public void onTestSkipped(ITestResult result) {
 		test = extent.createTest(result.getTestClass().getName());
 		test.assignCategory(result.getMethod().getGroups());
 		test.log(Status.SKIP, result.getName() + " got skipped");
-		test.log(Status.INFO, result.getThrowable().getMessage());
 	}
 
 	public void onFinish(ITestContext context) {

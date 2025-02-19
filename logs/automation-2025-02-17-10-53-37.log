@@ -1,0 +1,32 @@
+10:55:15.728 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:55:15.734 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:55:19.532 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+10:55:19.541 [main] INFO  testCases.AddEmployeeTest - page title is matched
+10:55:23.372 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+10:55:24.683 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+10:55:25.260 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+10:55:25.859 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+10:55:26.381 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:55:26.633 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+10:55:26.643 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+10:55:32.149 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:55:32.149 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:55:34.190 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+10:55:34.194 [main] INFO  testCases.AddEmployeeTest - page title is matched
+10:55:37.651 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+10:55:38.941 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+10:55:39.423 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+10:55:39.937 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+10:55:40.722 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:55:40.912 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+10:55:40.918 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+10:55:47.133 [main] INFO  utilities.Listeners - addEmployee Test execution started
+10:55:47.133 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+10:55:49.184 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+10:55:49.188 [main] INFO  testCases.AddEmployeeTest - page title is matched
+10:55:52.692 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+10:55:53.965 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+10:55:54.454 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+10:55:54.912 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+10:55:55.651 [main] ERROR testCases.AddEmployeeTest - Test Failed
+10:55:55.995 [main] INFO  utilities.Listeners - Execution completed

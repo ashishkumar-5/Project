@@ -1,0 +1,22 @@
+14:15:38.572 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+14:15:38.572 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+14:15:38.642 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+14:15:38.642 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+14:15:45.642 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:15:45.649 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:15:47.015 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:15:47.016 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:04.334 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:04.335 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:05.110 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:05.110 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:24.214 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:24.215 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:26.218 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:26.218 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:37.526 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:37.526 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:39.481 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+14:16:39.482 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+14:16:40.322 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+14:16:40.322 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

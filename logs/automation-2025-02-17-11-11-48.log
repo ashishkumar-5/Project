@@ -1,0 +1,34 @@
+11:11:48.869 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+11:11:48.869 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+11:11:49.264 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+11:11:49.264 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+11:11:49.309 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+11:11:49.309 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+11:11:54.589 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:11:54.591 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+11:11:55.527 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:11:55.543 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+11:11:55.543 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+11:11:56.617 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+11:11:56.727 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+11:11:57.647 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+11:11:57.842 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+11:11:57.850 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+11:11:57.926 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+11:11:57.934 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+11:11:58.809 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:11:58.810 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+11:11:58.814 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:11:58.814 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+11:11:58.817 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+11:11:58.818 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+11:11:59.822 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+11:12:01.624 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+11:12:01.624 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+11:12:02.982 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+11:12:02.988 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+11:12:07.228 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+11:12:07.229 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+11:12:07.234 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+11:12:07.234 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+11:12:07.586 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

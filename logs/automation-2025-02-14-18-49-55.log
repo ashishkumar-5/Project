@@ -1,0 +1,40 @@
+18:49:55.195 [TestNG-tests-3] INFO  utilities.Listeners - Execution started
+18:49:55.585 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:49:55.610 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:50:01.934 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:50:01.937 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Landed into login page
+18:50:04.013 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:50:04.017 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - page title is matched
+18:50:06.782 [TestNG-tests-3] ERROR testCases.AddEmployeeTest - Test Failed
+18:50:07.626 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:50:07.633 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:50:14.190 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:50:14.190 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Landed into login page
+18:50:14.836 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:50:14.839 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - page title is matched
+18:50:21.573 [TestNG-tests-3] ERROR testCases.AddEmployeeTest - Test Failed
+18:50:22.357 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:50:22.363 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:50:28.377 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:50:28.377 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Landed into login page
+18:50:30.413 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:50:30.417 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - page title is matched
+18:50:39.750 [TestNG-tests-3] ERROR testCases.AddEmployeeTest - Test Failed
+18:50:40.580 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:50:40.587 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:50:46.468 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:50:46.468 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Landed into login page
+18:50:48.473 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:50:48.479 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - page title is matched
+18:50:51.170 [TestNG-tests-3] ERROR testCases.AddEmployeeTest - Test Failed
+18:50:52.110 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:50:52.117 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:50:58.221 [TestNG-tests-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:50:58.222 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:51:00.218 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+18:51:00.221 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+18:51:01.584 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+18:51:01.901 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+18:51:02.893 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+18:51:03.968 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:51:05.686 [TestNG-tests-3] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,24 @@
+17:48:41.929 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:48:41.929 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:48:50.526 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:48:50.530 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:48:53.041 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:48:53.042 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:48:53.233 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:48:53.248 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+17:48:56.260 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:48:56.272 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:48:57.771 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:48:59.095 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:48:59.747 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:49:00.426 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:49:00.799 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:49:02.216 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:49:02.318 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:49:02.868 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:49:03.429 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:49:03.589 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:49:04.392 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:49:05.446 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:49:05.960 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+17:49:05.960 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

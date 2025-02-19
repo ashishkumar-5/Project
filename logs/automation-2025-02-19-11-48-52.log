@@ -1,0 +1,12 @@
+11:50:28.618 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+11:50:29.011 [TestNG-tests-2] ERROR testCases.DeleteEmployeeTest - Test Failed
+11:50:36.242 [TestNG-tests-2] INFO  utilities.Listeners - deleteEmployee Test execution started
+11:50:36.242 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Landed into login page
+11:50:38.034 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+11:50:46.598 [TestNG-tests-2] INFO  utilities.Listeners - deleteEmployee Test execution started
+11:50:46.601 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Landed into login page
+11:50:48.659 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+11:50:48.663 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - page title is matched
+11:50:50.380 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+11:50:50.829 [TestNG-tests-2] ERROR testCases.DeleteEmployeeTest - Test Failed
+11:50:52.648 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

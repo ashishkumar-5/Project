@@ -1,0 +1,24 @@
+18:34:05.337 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+18:34:05.337 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+18:34:05.337 [TestNG-tests-3] INFO  utilities.Listeners - Execution started
+18:34:05.793 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+18:34:05.793 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+18:34:05.793 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:34:05.844 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+18:34:05.844 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+18:34:05.844 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:34:07.196 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:34:07.242 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+18:34:07.259 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+18:34:08.462 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:34:09.520 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+18:34:09.587 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+18:34:09.607 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+18:34:10.619 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:34:10.651 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:34:10.666 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:34:10.735 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+18:34:12.753 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:34:13.008 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+18:34:15.298 [TestNG-tests-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:34:15.485 [TestNG-tests-3] INFO  utilities.Listeners - Execution completed

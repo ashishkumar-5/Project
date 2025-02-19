@@ -1,0 +1,19 @@
+18:51:47.887 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:51:54.097 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:51:54.097 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Landed into login page
+18:51:56.174 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:51:56.177 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - page title is matched
+18:52:04.783 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+18:52:04.786 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:52:04.786 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:52:04.788 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:52:04.788 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:52:04.790 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:52:04.790 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+18:52:05.113 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+18:52:08.283 [TestNG-tests-3] ERROR testCases.AddEmployeeTest - Test Failed
+18:52:09.198 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:52:09.208 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:52:14.588 [TestNG-tests-3] INFO  utilities.Listeners - addEmployee Test execution started
+18:52:14.588 [TestNG-tests-3] INFO  testCases.AddEmployeeTest - Landed into login page
+18:52:14.988 [TestNG-tests-3] INFO  utilities.Listeners - Execution completed

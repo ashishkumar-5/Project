@@ -1,0 +1,29 @@
+16:07:48.625 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:07:51.111 [TestNG-tests-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:07:51.112 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:07:58.865 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:07:58.866 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:01.431 [TestNG-tests-2] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:01.450 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:08.916 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:08:08.916 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:11.467 [TestNG-tests-2] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:11.467 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:18.982 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:08:18.983 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:21.536 [TestNG-tests-2] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:21.537 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:29.010 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:08:29.010 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:31.567 [TestNG-tests-2] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:31.567 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:39.233 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:39.233 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:45.364 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+16:08:49.249 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:49.249 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:08:59.312 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:08:59.313 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:09:09.369 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:09:09.369 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:09:20.593 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,14 @@
+23:02:43.392 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+23:02:43.937 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+23:02:44.739 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+23:02:44.739 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Landed into login page
+23:02:45.128 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Searched Employee is not found in the table
+23:02:46.176 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+23:02:46.891 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+23:02:46.900 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - page title is matched
+23:02:48.421 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+23:02:48.997 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+23:02:49.089 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+23:02:49.329 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+23:02:51.248 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+23:02:51.644 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

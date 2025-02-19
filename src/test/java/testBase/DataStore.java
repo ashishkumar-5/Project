@@ -4,7 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DataStore {
-	private Map<String, Object> dataMap = new HashMap<>();
+
+	private static ThreadLocal<Map<String, Object>> threadLocalDataMap = ThreadLocal.withInitial(HashMap::new);
 
 	private static final DataStore instance = new DataStore();
 
@@ -13,7 +14,8 @@ public class DataStore {
 	}
 
 	public void store(String key, Object value, boolean updateIfExists) {
-		if (!contains(key)) {
+		Map<String, Object> dataMap = threadLocalDataMap.get();
+		if (!dataMap.containsKey(key)) {
 			dataMap.put(key, value);
 		} else {
 			if (updateIfExists) {
@@ -23,27 +25,32 @@ public class DataStore {
 	}
 
 	public <T> T get(String key) {
-		if (dataMap.containsKey(key)) {
-			return (T) dataMap.get(key);
-		}
-		return null;
+		Map<String, Object> dataMap = threadLocalDataMap.get();
+		return dataMap.containsKey(key) ? (T) dataMap.get(key) : null;
 	}
 
 	public void remove(String key) {
-		if (contains(key)) {
+		Map<String, Object> dataMap = threadLocalDataMap.get();
+		if (dataMap.containsKey(key)) {
 			dataMap.remove(key);
 		}
 	}
 
 	public void update(String key, Object value) {
+		Map<String, Object> dataMap = threadLocalDataMap.get();
 		dataMap.put(key, value);
 	}
 
 	public boolean contains(String key) {
+		Map<String, Object> dataMap = threadLocalDataMap.get();
 		return dataMap.containsKey(key);
 	}
 
 	public void clearAll() {
-		dataMap.clear();
+		threadLocalDataMap.get().clear();
+	}
+
+	public void clearCurrentThreadData() {
+		threadLocalDataMap.remove();
 	}
 }

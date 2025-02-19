@@ -1,0 +1,19 @@
+18:19:40.932 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+18:19:40.932 [TestNG-tests-3] INFO  utilities.Listeners - Execution completed
+18:19:42.397 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+18:19:43.831 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+18:19:44.547 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+18:19:45.242 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+18:19:45.895 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+18:19:47.376 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+18:19:47.623 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+18:19:47.641 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+18:19:53.996 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:19:53.996 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:19:56.214 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+18:19:56.224 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+18:19:57.934 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+18:19:58.482 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+18:19:59.209 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+18:20:00.304 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:20:01.110 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,19 @@
+10:31:49.933 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+10:31:51.043 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+10:31:54.634 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+10:31:56.445 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+10:31:56.978 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+10:31:57.471 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+10:31:58.073 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+10:31:59.003 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+10:31:59.143 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+10:31:59.151 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+10:32:02.914 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+10:32:02.915 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+10:32:03.658 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+10:32:05.012 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+10:32:06.356 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+10:32:06.848 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+10:32:07.820 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+10:32:08.775 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+10:32:09.328 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

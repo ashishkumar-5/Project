@@ -1,0 +1,7 @@
+11:04:27.322 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+11:04:27.335 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+11:04:28.725 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+11:04:29.208 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+11:04:30.641 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+11:04:31.498 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+11:04:32.028 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

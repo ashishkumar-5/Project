@@ -1,0 +1,39 @@
+17:57:16.299 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:57:16.299 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:57:17.178 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+17:57:17.178 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+17:57:17.234 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+17:57:17.234 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+17:57:23.518 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:57:23.522 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:57:25.680 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:57:25.680 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:57:26.216 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:57:26.232 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+17:57:27.908 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:57:27.921 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:57:30.929 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:57:32.518 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:57:32.787 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:57:33.436 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:57:34.287 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:57:34.988 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:57:35.159 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:57:35.637 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:57:36.262 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:57:36.318 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:57:37.094 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+17:57:37.375 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+17:57:37.400 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+17:57:38.746 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+17:57:46.090 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:57:46.091 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:57:51.088 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:57:51.100 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:57:56.418 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:57:57.803 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:57:58.658 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:57:59.226 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:57:59.985 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:58:01.245 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:58:02.115 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

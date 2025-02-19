@@ -1,0 +1,12 @@
+16:42:54.397 [TestNG-test=Parallel Test-1] ERROR testCases.AddEmployeeTest - Test Failed
+16:42:58.630 [TestNG-test=Parallel Test-1] INFO  utilities.Listeners - addEmployee Test execution started
+16:42:58.630 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Landed into login page
+16:42:59.221 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+16:43:00.405 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - page title is matched
+16:43:03.729 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+16:43:05.015 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+16:43:05.512 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+16:43:05.972 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+16:43:06.538 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+16:43:07.385 [TestNG-test=Parallel Test-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+16:43:08.431 [main] INFO  utilities.Listeners - Execution completed

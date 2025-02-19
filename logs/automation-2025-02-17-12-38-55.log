@@ -1,0 +1,3 @@
+12:40:00.080 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+12:40:00.088 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+12:40:00.473 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

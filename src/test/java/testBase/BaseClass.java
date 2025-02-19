@@ -1,11 +1,8 @@
 package testBase;
 
-import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
 import java.util.Properties;
 import java.util.Random;
 
@@ -23,18 +20,33 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
+
+import com.aventstack.extentreports.MediaEntityBuilder;
+import com.aventstack.extentreports.model.Media;
 
 import utilities.Waits;
 
 public class BaseClass {
-	public static WebDriver driver;
+	private static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
 	public static Properties prop;
 	public static Logger log;
 	public static JSONParser jsonParser;
 	public static JSONObject jsonObj;
 
+	WebDriver driver;
+
+	public void setDriver(WebDriver driver) {
+		tdriver.set(driver);
+	}
+
+	public WebDriver getDriver() {
+		return tdriver.get();
+	}
+
+	@Parameters({ "browsername" })
 	@BeforeMethod
-	public void setup() throws IOException, InterruptedException, ParseException {
+	public void setup(String browserName) throws IOException, InterruptedException, ParseException {
 		Waits sync_Wait = new Waits();
 		log = LogManager.getLogger(this.getClass());
 
@@ -43,40 +55,33 @@ public class BaseClass {
 		FileInputStream file = new FileInputStream(genericPath + "\\src\\test\\resources\\data.properties");
 		prop.load(file);
 
-
-		JSONParser jsonParser = new JSONParser();
-		jsonObj = (JSONObject) jsonParser.parse(new FileReader(genericPath + "\\src\\test\\resources\\testData\\testdata.json"));
-
-		String browserName = (String) jsonObj.get("browser");
+		jsonParser = new JSONParser();
+		jsonObj = (JSONObject) jsonParser
+				.parse(new FileReader(genericPath + "\\src\\test\\resources\\testData\\testdata.json"));
 
 		if (browserName.equals("Chrome")) {
-			driver = new ChromeDriver();
+			tdriver.set(new ChromeDriver());
 		} else if (browserName.equals("Firefox")) {
-			driver = new FirefoxDriver();
+			tdriver.set(new FirefoxDriver());
 		} else if (browserName.equals("Edge")) {
-			driver = new EdgeDriver();
+			tdriver.set(new EdgeDriver());
 		} else if (browserName.equals("IE")) {
-			driver = new InternetExplorerDriver();
+			tdriver.set(new InternetExplorerDriver());
 		} else {
 			System.out.println("Invalid browser name");
+			return;
 		}
-
-		driver.manage().deleteAllCookies();
-		driver.manage().window().maximize();
-		sync_Wait.implicitWait(driver);
-		driver.get(prop.getProperty("websiteurl"));
+		getDriver().manage().deleteAllCookies();
+		getDriver().manage().window().maximize();
+		sync_Wait.implicitWait(getDriver());
+		getDriver().get(prop.getProperty("websiteurl"));
 
 	}
 
-	public String captureScreen(String tName) throws IOException {
-		String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
-
-		TakesScreenshot scrShot = ((TakesScreenshot) driver);
-		File sourceFile = scrShot.getScreenshotAs(OutputType.FILE);
-		String targetFilePath = System.getProperty("user.dir") + "\\screenshots\\" + tName + "_" + timeStamp + ".png";
-		File targetFile = new File(targetFilePath);
-		sourceFile.renameTo(targetFile);
-		return targetFilePath;
+	public Media captureScreen(String tName) throws IOException {
+		TakesScreenshot scrShot = ((TakesScreenshot) getDriver());
+		return MediaEntityBuilder.createScreenCaptureFromBase64String(scrShot.getScreenshotAs(OutputType.BASE64))
+				.build();
 	}
 
 	public int randomNumber() {
@@ -87,6 +92,7 @@ public class BaseClass {
 
 	@AfterMethod
 	public void tearDown() {
-		driver.quit();
+		getDriver().quit();
+		tdriver.remove();
 	}
 }

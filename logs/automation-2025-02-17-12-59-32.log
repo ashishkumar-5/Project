@@ -1,0 +1,22 @@
+13:00:19.497 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+13:00:19.521 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:00:20.821 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:00:21.389 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:00:21.935 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:00:22.616 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:00:23.334 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:00:24.668 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:00:25.246 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:00:25.796 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:00:26.502 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:00:28.481 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+13:00:30.960 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:30.961 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:33.108 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:00:33.118 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+13:00:36.986 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:00:38.307 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:00:38.816 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:00:39.321 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:00:39.762 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:00:40.127 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

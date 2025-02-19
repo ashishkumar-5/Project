@@ -1,0 +1,12 @@
+11:36:21.200 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+11:36:21.212 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+11:36:21.715 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+11:36:26.931 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+11:36:26.932 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+11:36:29.602 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+11:36:29.608 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+11:36:31.801 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+11:36:32.360 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+11:36:33.128 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+11:36:34.176 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+11:36:35.845 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

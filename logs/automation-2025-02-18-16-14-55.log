@@ -1,0 +1,16 @@
+16:15:42.785 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:15:52.833 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:15:52.834 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:16:02.861 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:16:02.862 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:16:12.933 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:16:12.982 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:16:23.319 [TestNG-tests-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:16:23.319 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:16:33.334 [TestNG-tests-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:16:33.335 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:16:43.352 [TestNG-tests-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:16:43.353 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:16:53.381 [TestNG-tests-2] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:16:53.382 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+16:17:07.288 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,24 @@
+17:19:37.290 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:19:37.290 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:19:43.730 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:19:43.733 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:19:44.793 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:19:46.252 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+17:19:48.562 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:19:48.580 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:19:50.243 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:19:51.712 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:19:51.732 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:19:51.745 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:19:52.316 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:19:52.885 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:19:53.722 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:19:54.715 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:19:56.160 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:19:56.512 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+17:19:57.770 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:19:58.372 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:19:59.123 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:19:59.956 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:20:01.009 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:20:01.363 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

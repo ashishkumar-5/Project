@@ -1,0 +1,4 @@
+18:17:54.640 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+18:17:54.857 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+18:17:55.671 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:17:56.004 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

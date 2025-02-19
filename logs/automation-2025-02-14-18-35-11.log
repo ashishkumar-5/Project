@@ -1,0 +1,24 @@
+18:35:11.761 [main] INFO  utilities.Listeners - Execution started
+18:35:12.228 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+18:35:12.262 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+18:35:13.629 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:35:13.677 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+18:35:13.694 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+18:35:14.675 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:35:16.104 [main] INFO  utilities.Listeners - Execution completed
+18:35:16.106 [main] INFO  utilities.Listeners - Execution started
+18:35:16.122 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+18:35:16.131 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+18:35:18.977 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:35:19.023 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+18:35:19.037 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+18:35:21.999 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:35:22.490 [main] INFO  utilities.Listeners - Execution completed
+18:35:22.491 [main] INFO  utilities.Listeners - Execution started
+18:35:22.509 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:35:22.518 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:35:26.981 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:35:27.018 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:35:27.038 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:35:30.803 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:35:31.281 [main] INFO  utilities.Listeners - Execution completed

@@ -1,0 +1,23 @@
+15:51:30.107 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+15:51:34.754 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+15:51:34.766 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+15:51:40.180 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+15:51:41.705 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+15:51:41.948 [TestNG-tests-1] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+15:51:49.249 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+15:51:49.249 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+15:51:52.271 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+15:51:53.834 [TestNG-tests-2] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+15:52:03.609 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+15:52:07.247 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+15:52:07.248 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+15:52:14.142 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+15:52:17.012 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+15:52:22.157 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+15:52:22.170 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+15:52:31.963 [TestNG-tests-1] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+15:52:34.214 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+15:52:34.327 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+15:52:36.983 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+15:52:48.860 [TestNG-tests-2] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+15:52:51.034 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

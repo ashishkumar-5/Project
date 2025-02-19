@@ -1,0 +1,39 @@
+18:46:09.250 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:46:09.259 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:46:15.525 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:46:15.526 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:46:17.521 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:46:17.523 [main] INFO  testCases.AddEmployeeTest - page title is matched
+18:46:20.781 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:46:21.629 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:46:21.635 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:46:27.783 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:46:27.783 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:46:29.941 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:46:29.943 [main] INFO  testCases.AddEmployeeTest - page title is matched
+18:46:40.344 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:46:41.164 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:46:41.170 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:46:47.148 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:46:47.148 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:46:49.175 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:46:49.179 [main] INFO  testCases.AddEmployeeTest - page title is matched
+18:46:52.866 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:46:53.594 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:46:53.599 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:46:59.534 [main] INFO  utilities.Listeners - addEmployee Test execution started
+18:46:59.535 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+18:47:01.514 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+18:47:01.517 [main] INFO  testCases.AddEmployeeTest - page title is matched
+18:47:04.214 [main] ERROR testCases.AddEmployeeTest - Test Failed
+18:47:05.096 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:47:05.101 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:47:11.272 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:47:11.272 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:47:13.323 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+18:47:13.327 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+18:47:14.611 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+18:47:14.921 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+18:47:16.427 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+18:47:17.572 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:47:18.712 [main] INFO  utilities.Listeners - Execution completed

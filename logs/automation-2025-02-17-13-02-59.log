@@ -1,0 +1,14 @@
+13:03:48.706 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:03:49.240 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:03:49.740 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:03:50.212 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:03:57.435 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:03:57.435 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+13:03:59.496 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:03:59.500 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+13:04:03.066 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:04:04.352 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:04:04.850 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:04:05.356 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:04:05.818 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:04:06.161 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

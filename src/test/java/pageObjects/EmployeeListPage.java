@@ -17,7 +17,6 @@ public class EmployeeListPage extends BasePage {
 
 	public void enterEmployeeId(String employeeIdTxt) {
 		driver.findElement(txt_employee_id).sendKeys(employeeIdTxt);
-
 	}
 
 	public void clickSearchBtn() {
@@ -47,21 +46,19 @@ public class EmployeeListPage extends BasePage {
 				"//*[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']",
 				"textToBePresentInElementLocated", expectedTxt);
 		return driver.findElement(No_Records_Found_txt).getText();
-
-	}
-
-	public String verifySuccesfullyDeletedToastMessage(String expectedMsg) {
-		String actualMsg = driver.findElement(Successful_toast_message).getText();
-		sync_Wait.explicitWait(driver, "xpath", "//span[normalize-space()='No Records Found']",
-				"textToBePresentInElementLocated", expectedMsg);
-		return actualMsg;
-
 	}
 
 	public void deleteEmployee(String employeeId) {
-		WebElement a = driver.findElement(By.xpath("//div[contains(text(),'" + employeeId
+		WebElement element = driver.findElement(By.xpath("//div[contains(text(),'" + employeeId
 				+ "')]/ancestor::div[@class='oxd-table-cell oxd-padding-cell']/following-sibling::div[7]//div//button[2]//i"));
-		a.click();
+		element.click();
+	}
+
+	public String verifySuccesfullyDeletedToastMessage(String expectedMsg) {
+		sync_Wait.explicitWait(driver, "xpath",
+				"//*[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']",
+				"textToBePresentInElementLocated", expectedMsg);
+		return driver.findElement(Successful_toast_message).getText();
 	}
 
 	public void deleteEmployeeAction(String actionName) {

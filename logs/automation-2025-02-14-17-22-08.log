@@ -1,0 +1,47 @@
+17:22:08.149 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:22:08.149 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:22:13.717 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:13.720 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:15.791 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:15.792 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:17.964 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:22:17.976 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:22:18.336 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:22:18.347 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+17:22:22.396 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:22:22.684 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:22:23.717 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:22:24.026 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:22:24.296 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:22:24.621 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:22:24.891 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:22:25.209 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:22:25.459 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+17:22:25.833 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:22:25.840 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:25.840 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:25.844 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:25.844 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:25.849 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:25.849 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:27.353 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+17:22:32.615 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:32.615 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:34.692 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:22:34.701 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:22:39.922 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:22:41.448 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:22:42.130 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:22:42.674 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:22:43.242 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+17:22:49.977 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:22:49.977 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:22:52.156 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:22:52.165 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:22:56.902 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:22:58.360 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:22:58.966 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:22:59.660 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:23:00.961 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:23:01.883 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:23:02.570 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

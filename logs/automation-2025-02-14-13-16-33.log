@@ -1,0 +1,6 @@
+13:16:33.653 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+13:16:33.653 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+13:16:33.688 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:16:33.689 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:16:35.557 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+13:16:35.557 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

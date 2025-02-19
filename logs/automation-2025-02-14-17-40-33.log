@@ -1,0 +1,15 @@
+17:40:33.716 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:40:33.716 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:40:37.756 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:40:39.302 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+17:40:42.172 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:40:42.176 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+17:40:45.118 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:40:45.132 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+17:40:48.950 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:40:50.269 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:40:50.853 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:40:51.417 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:40:52.161 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:40:53.280 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:40:53.920 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

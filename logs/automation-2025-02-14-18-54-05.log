@@ -1,0 +1,38 @@
+18:54:24.227 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using geckodriver 0.35.0 (resolved driver for Firefox 115)
+18:54:24.246 [TestNG-tests-3] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.gecko.driver as C:\Users\ashish.vanjarapu\.cache\selenium\geckodriver\win64\0.35.0\geckodriver.exe
+18:54:27.010 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:27.011 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:27.017 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:27.018 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:27.025 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:27.025 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:27.029 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:27.030 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:28.863 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+18:54:32.481 [TestNG-tests-3] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:32.482 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:34.572 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+18:54:34.574 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+18:54:36.387 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+18:54:36.828 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+18:54:38.275 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+18:54:39.428 [TestNG-tests-3] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+18:54:40.600 [TestNG-tests-3] INFO  utilities.Listeners - Execution completed
+18:54:45.210 [TestNG-tests-1] ERROR testCases.NotExistEmployeeDetailsTest - Test Failed
+18:54:45.212 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:54:45.213 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:45.215 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:54:45.215 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:45.218 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+18:54:45.218 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:45.480 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+18:54:45.491 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+18:54:48.222 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:48.223 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:48.260 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:48.261 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:48.273 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:48.273 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:48.281 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+18:54:48.281 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+18:54:48.726 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

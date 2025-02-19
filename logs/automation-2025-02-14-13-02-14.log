@@ -1,0 +1,43 @@
+13:02:14.789 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+13:02:33.315 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:02:33.317 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:02:44.608 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:02:44.621 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+13:03:03.760 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:03:14.629 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:03:14.631 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:03:25.772 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:03:25.781 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+13:03:39.989 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:03:43.448 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:03:45.002 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:03:46.230 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:03:47.971 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:03:56.628 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:03:56.628 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:03:58.872 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:03:58.880 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+13:04:04.405 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:04:05.726 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:04:06.326 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:04:06.970 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:04:07.628 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:04:15.700 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:04:15.701 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:04:17.578 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:04:17.587 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+13:04:22.212 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:04:24.045 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:04:24.647 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:04:25.272 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:04:25.993 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+13:04:26.895 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+13:04:35.367 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+13:04:35.367 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+13:04:37.450 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+13:04:37.459 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+13:04:39.073 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+13:04:39.639 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+13:04:43.442 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+13:04:44.418 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+13:04:47.140 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

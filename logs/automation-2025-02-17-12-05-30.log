@@ -1,0 +1,37 @@
+12:05:30.084 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+12:05:30.084 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+12:05:30.485 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+12:05:30.485 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.69 (resolved driver for Edge 133)
+12:05:30.518 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+12:05:30.518 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.69\msedgedriver.exe
+12:05:34.418 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+12:05:34.421 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+12:05:36.029 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+12:05:36.029 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+12:05:36.225 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+12:05:36.232 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+12:05:38.177 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+12:05:38.184 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+12:05:39.698 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+12:05:40.992 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Success Message is matched
+12:05:41.794 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+12:05:41.846 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged out Successfully
+12:05:42.051 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+12:05:42.059 [TestNG-tests-1] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+12:05:43.636 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Success Message is matched
+12:05:43.643 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+12:05:43.643 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+12:05:43.646 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+12:05:43.646 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+12:05:43.654 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+12:05:43.655 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+12:05:44.928 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+12:05:45.694 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+12:05:45.694 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+12:05:47.523 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+12:05:47.532 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+12:05:49.044 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+12:05:49.491 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+12:05:50.031 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+12:05:50.937 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+12:05:51.446 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

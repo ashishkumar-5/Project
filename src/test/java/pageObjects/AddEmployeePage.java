@@ -19,6 +19,8 @@ public class AddEmployeePage extends BasePage {
 	}
 
 	public void setFirstName(String firstName) {
+		sync_Wait.explicitWait(driver, "xpath", "//div[@class=\"oxd-loading-spinner-container\"]",
+				"invisibilityOfElementLocated", null);
 		driver.findElement(first_name).sendKeys(firstName);
 	}
 
@@ -56,7 +58,6 @@ public class AddEmployeePage extends BasePage {
 				"//*[@class='oxd-text oxd-text--p oxd-text--toast-message oxd-toast-content-text']",
 				"textToBePresentInElementLocated", expectedMsg);
 		return driver.findElement(Successful_toast_message).getText();
-
 	}
 
 	By first_name = By.name("firstName");

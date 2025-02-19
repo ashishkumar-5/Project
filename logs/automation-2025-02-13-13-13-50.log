@@ -1,0 +1,4 @@
+13:15:31.665 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+13:15:31.725 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+13:15:33.926 [main] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+13:15:34.962 [main] INFO  utilities.Listeners - Execution completed

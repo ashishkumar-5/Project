@@ -1,0 +1,44 @@
+13:00:15.046 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+13:00:15.046 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+13:00:20.069 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:20.071 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:21.792 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:21.792 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:23.525 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:00:23.532 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - page title is matched
+13:00:33.613 [TestNG-tests-1] ERROR testCases.AddEmployeeTest - Test Failed
+13:00:34.988 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:34.988 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:34.993 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:34.993 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:34.997 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:34.997 [TestNG-tests-1] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:36.043 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+13:00:40.958 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:00:40.958 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+13:00:43.053 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:00:43.058 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+13:00:55.221 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:00:56.580 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:00:57.201 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:00:57.735 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:00:58.515 [TestNG-tests-2] ERROR testCases.AddEmployeeTest - Test Failed
+13:01:06.568 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+13:01:06.568 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+13:01:09.552 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+13:01:09.558 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+13:01:19.047 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+13:01:21.567 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+13:01:23.055 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+13:01:24.114 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+13:01:25.367 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+13:01:27.833 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+13:01:35.082 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+13:01:35.083 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+13:01:41.022 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+13:01:41.022 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+13:01:46.783 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+13:01:46.784 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+13:01:52.705 [TestNG-tests-2] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+13:01:52.705 [TestNG-tests-2] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+13:01:53.335 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

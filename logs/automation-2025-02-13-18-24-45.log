@@ -1,0 +1,6 @@
+18:26:13.722 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Landed into login page
+18:26:15.814 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+18:26:15.814 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Landed into login page
+18:26:17.759 [TestNG-tests-1] INFO  utilities.Listeners - deleteEmployee Test execution started
+18:26:17.759 [TestNG-tests-1] INFO  testCases.DeleteEmployeeTest - Landed into login page
+18:26:18.756 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

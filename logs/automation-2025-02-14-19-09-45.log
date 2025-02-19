@@ -1,0 +1,48 @@
+19:09:45.530 [main] INFO  utilities.Listeners - Execution started
+19:09:45.891 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+19:09:45.914 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+19:09:49.660 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:09:49.662 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:10:00.036 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+19:10:00.043 [main] INFO  testCases.AddEmployeeTest - page title is matched
+19:10:03.853 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+19:10:05.159 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+19:10:05.655 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+19:10:06.117 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+19:10:06.794 [main] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+19:10:07.731 [main] INFO  testCases.AddEmployeeTest - Logged out Successfully
+19:10:07.842 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 132.0.6834.159 (resolved driver for Chrome 132)
+19:10:07.852 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ashish.vanjarapu\.cache\selenium\chromedriver\win64\132.0.6834.159\chromedriver.exe
+19:10:11.309 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+19:10:11.310 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+19:10:13.030 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+19:10:13.034 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+19:10:14.596 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+19:10:15.098 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+19:10:15.603 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+19:10:16.457 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+19:10:17.446 [main] INFO  utilities.Listeners - Execution completed
+19:10:17.447 [main] INFO  utilities.Listeners - Execution started
+19:10:17.459 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+19:10:17.466 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+19:10:23.068 [main] INFO  utilities.Listeners - addEmployee Test execution started
+19:10:23.068 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+19:10:26.378 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+19:10:26.382 [main] INFO  testCases.AddEmployeeTest - page title is matched
+19:10:29.888 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+19:10:31.706 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+19:10:32.185 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+19:10:32.634 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+19:10:33.212 [main] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+19:10:34.061 [main] INFO  testCases.AddEmployeeTest - Logged out Successfully
+19:10:34.195 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+19:10:34.205 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+19:10:41.243 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+19:10:41.243 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+19:10:43.243 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+19:10:43.248 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+19:10:44.903 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+19:10:45.345 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+19:10:45.977 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+19:10:46.821 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+19:10:47.244 [main] INFO  utilities.Listeners - Execution completed

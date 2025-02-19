@@ -1,0 +1,6 @@
+16:30:33.853 [main] INFO  utilities.Listeners - Execution started
+16:30:33.952 [main] INFO  utilities.Listeners - addEmployee Test execution started
+16:30:33.971 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+16:30:33.977 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+16:30:33.984 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+16:30:35.388 [main] INFO  utilities.Listeners - Execution completed

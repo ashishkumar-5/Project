@@ -6,13 +6,12 @@ import org.testng.annotations.Test;
 import pageObjects.DashboardPage;
 import pageObjects.EmployeeListPage;
 import pageObjects.LoginPage;
-import pageObjects.PIMPage;
 import testBase.BaseClass;
+import testBase.DataStore;
 
 public class DeleteEmployeeTest extends BaseClass {
 	LoginPage lpage;
 	DashboardPage dbpage;
-	PIMPage pimpage;
 	EmployeeListPage emplistpage;
 	LoginandLogoutTest loginlogout;
 
@@ -25,22 +24,25 @@ public class DeleteEmployeeTest extends BaseClass {
 			loginlogout.login();
 
 			// DashboardPage
-			dbpage = new DashboardPage(driver);
+			dbpage = new DashboardPage(getDriver());
 			dbpage.clickPimMenu();
 
 			// PIMPage
-			pimpage = new PIMPage(driver);
 			log.info("Successfully landed into Employee List page");
 
 			// EmployeeListPage
-			emplistpage = new EmployeeListPage(driver);
-			String employeeId = (String) jsonObj.get("deleteemployeeid");
-			emplistpage.enterEmployeeId(employeeId);
+			emplistpage = new EmployeeListPage(getDriver());
+			// String employeeId = (String) jsonObj.get("deleteemployeeid");
+			String storedEmployeeId = DataStore.getInstance().get("storedEmployeeID");
+			emplistpage.enterEmployeeId(storedEmployeeId);
 			log.info("EmployeeId is entered in the employeeId field");
 			emplistpage.clickSearchBtn();
 			log.info("Searched Employee entry is not found in the table");
-			emplistpage.deleteEmployee(employeeId);
+			emplistpage.deleteEmployee(storedEmployeeId);
 			emplistpage.deleteEmployeeAction((String) jsonObj.get("actionname"));
+			String expectedMsg = (String) jsonObj.get("deletedsuccessmessage");
+			Assert.assertEquals(emplistpage.verifySuccesfullyDeletedToastMessage(expectedMsg), expectedMsg);
+			log.info("Success Message is matched");
 
 			// Logout
 			loginlogout.logout();

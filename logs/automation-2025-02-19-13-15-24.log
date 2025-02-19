@@ -1,0 +1,3 @@
+13:16:59.947 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+13:17:02.021 [TestNG-tests-2] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+13:17:03.616 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

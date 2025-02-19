@@ -1,6 +1,4 @@
 {
-	"browser":"Chrome"
-	"websiteurl":"https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
 	"username":"Admin"
 	"password":"admin123"
 	"pagetitle":"OrangeHRM"
@@ -14,4 +12,5 @@
 	"norecordstext":"No Records Found"
 	"deleteemployeeid":"Java042455"
 	"actionname":"yes,delete"
+	"deletedsuccessmessage":"Successfully Deleted"
 }

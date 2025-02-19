@@ -1,0 +1,21 @@
+17:55:43.729 [TestNG-tests-1] INFO  utilities.Listeners - Execution started
+17:55:43.729 [TestNG-tests-2] INFO  utilities.Listeners - Execution started
+17:55:43.819 [TestNG-tests-1] INFO  utilities.Listeners - addEmployee Test execution started
+17:55:45.976 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed
+17:55:49.144 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+17:55:49.184 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+17:55:52.403 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:55:52.408 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:55:56.519 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using msedgedriver 133.0.3065.59 (resolved driver for Edge 133)
+17:55:56.536 [TestNG-tests-2] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.edge.driver as C:\Users\ashish.vanjarapu\.cache\selenium\msedgedriver\win64\133.0.3065.59\msedgedriver.exe
+17:55:59.619 [TestNG-tests-2] INFO  utilities.Listeners - addEmployee Test execution started
+17:55:59.620 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Landed into login page
+17:56:01.869 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:56:01.882 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - page title is matched
+17:56:06.337 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:56:07.687 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:56:08.460 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:56:09.114 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:56:09.876 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:56:11.045 [TestNG-tests-2] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:56:12.001 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed

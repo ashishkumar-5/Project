@@ -1,0 +1,23 @@
+13:20:36.560 [TestNG-tests-2] INFO  utilities.Listeners - Execution completed
+13:20:43.215 [TestNG-tests-1] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+13:20:43.216 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+13:20:45.274 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+13:20:45.276 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+13:20:46.670 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+13:20:47.161 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+13:20:48.651 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+13:20:49.759 [TestNG-tests-1] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+13:20:57.716 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+13:20:57.717 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+13:21:00.034 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+13:21:00.037 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+13:21:01.307 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+13:21:01.593 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+13:21:23.784 [TestNG-tests-1] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+13:21:23.801 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+13:21:23.801 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+13:21:23.804 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+13:21:23.805 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+13:21:23.807 [TestNG-tests-1] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+13:21:23.807 [TestNG-tests-1] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+13:21:24.127 [TestNG-tests-1] INFO  utilities.Listeners - Execution completed

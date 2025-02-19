@@ -1,0 +1,55 @@
+17:26:43.391 [main] INFO  utilities.Listeners - Execution started
+17:26:49.110 [main] INFO  utilities.Listeners - addEmployee Test execution started
+17:26:49.114 [main] INFO  testCases.AddEmployeeTest - Landed into login page
+17:26:49.958 [main] INFO  testCases.AddEmployeeTest - Logged in Successfully
+17:26:51.265 [main] INFO  testCases.AddEmployeeTest - page title is matched
+17:26:55.211 [main] INFO  testCases.AddEmployeeTest - New Employee added Successfully
+17:26:56.540 [main] INFO  testCases.AddEmployeeTest - Success Message is matched
+17:26:57.119 [main] INFO  testCases.AddEmployeeTest - Successfully landed into Employee List page
+17:26:57.709 [main] INFO  testCases.AddEmployeeTest - Created EmployeeId is entered in the employeeId field
+17:26:58.312 [main] INFO  testCases.AddEmployeeTest - Created Employee is displayed in the table
+17:26:59.384 [main] INFO  testCases.AddEmployeeTest - Logged out Successfully
+17:27:04.517 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+17:27:04.518 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+17:27:05.311 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+17:27:06.631 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+17:27:08.137 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:27:08.657 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:27:09.229 [main] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+17:27:14.203 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+17:27:14.203 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+17:27:16.342 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+17:27:16.350 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+17:27:18.080 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:27:18.610 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:27:19.183 [main] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+17:27:24.092 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+17:27:24.092 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+17:27:26.177 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+17:27:26.193 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+17:27:27.643 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:27:28.173 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:27:28.693 [main] ERROR testCases.ExistEmployeeDetailsTest - Test Failed
+17:27:33.726 [main] INFO  utilities.Listeners - existEmployeeDetails Test execution started
+17:27:33.726 [main] INFO  testCases.ExistEmployeeDetailsTest - Landed into login page
+17:27:35.845 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged in Successfully
+17:27:35.860 [main] INFO  testCases.ExistEmployeeDetailsTest - page title is matched
+17:27:37.357 [main] INFO  testCases.ExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:27:37.892 [main] INFO  testCases.ExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:27:38.533 [main] INFO  testCases.ExistEmployeeDetailsTest - Searched Employee entry is found in the table
+17:27:39.597 [main] INFO  testCases.ExistEmployeeDetailsTest - Logged out Successfully
+17:27:44.625 [main] INFO  utilities.Listeners - notExistEmployeeDetails Test execution started
+17:27:44.626 [main] INFO  testCases.NotExistEmployeeDetailsTest - Landed into login page
+17:27:46.792 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged in Successfully
+17:27:46.807 [main] INFO  testCases.NotExistEmployeeDetailsTest - page title is matched
+17:27:48.391 [main] INFO  testCases.NotExistEmployeeDetailsTest - Successfully landed into Employee List page
+17:27:48.944 [main] INFO  testCases.NotExistEmployeeDetailsTest - EmployeeId is entered in the employeeId field
+17:27:49.521 [main] INFO  testCases.NotExistEmployeeDetailsTest - Searched Employee is not found in the table
+17:27:51.084 [main] INFO  testCases.NotExistEmployeeDetailsTest - Logged out Successfully
+17:27:54.847 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+17:27:54.847 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+17:28:11.831 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+17:28:11.832 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+17:28:12.908 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+17:28:14.229 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+17:28:15.887 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page

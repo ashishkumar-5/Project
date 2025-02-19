@@ -1,0 +1,12 @@
+19:18:27.623 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+19:18:27.682 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+19:18:28.135 [main] ERROR testCases.DeleteEmployeeTest - Test Failed
+19:18:32.231 [main] INFO  utilities.Listeners - deleteEmployee Test execution started
+19:18:32.231 [main] INFO  testCases.DeleteEmployeeTest - Landed into login page
+19:18:33.968 [main] INFO  testCases.DeleteEmployeeTest - Logged in Successfully
+19:18:33.972 [main] INFO  testCases.DeleteEmployeeTest - page title is matched
+19:18:35.376 [main] INFO  testCases.DeleteEmployeeTest - Successfully landed into Employee List page
+19:18:35.880 [main] INFO  testCases.DeleteEmployeeTest - EmployeeId is entered in the employeeId field
+19:18:35.933 [main] INFO  testCases.DeleteEmployeeTest - Searched Employee entry is not found in the table
+19:18:37.351 [main] INFO  testCases.DeleteEmployeeTest - Logged out Successfully
+19:18:38.481 [main] INFO  utilities.Listeners - Execution completed
